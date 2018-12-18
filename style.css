@@ -166,7 +166,6 @@ body {
 
 }
 
-
 .category-block {
     display: inline-block;
     margin-top: 19px;
@@ -189,33 +188,153 @@ body {
     letter-spacing: 0.75px;
 }
 
+/*
+
+1) Косяк с выравнием элементов и отступами между ними
+ */
+
 
 .fetures {
     display: flex;
     justify-content: center
 }
 
-.title-fetures {
+.fetures-info {
+    padding-bottom: 40px;
+}
+
+.fetures-end {
+    padding-bottom: 40px;
+}
+
+.fetures-title {
     display: flex;
     justify-content: center;
-
     color: #222222;
     font-size: 30px;
     font-weight: 700;
-
     letter-spacing: 0.75px;
+    padding-bottom: 10px;
 }
 
-.desc-fetures {
+.fetures-desc {
     display: flex;
     justify-content: center;
     color: #9f9f9f;
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 0.35px;
 }
 
-.feture {
+.fetures-items {
+    padding-bottom: 40px;
+}
 
+/*
+Не работает отступ внизу между строками.
+ */
+.feture {
+    width: 261px;
+    max-height: 279px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.feture a {
+    text-decoration: none;
+}
+
+.feture a:hover {
+    background: #222222;
+    opacity: 0.5;
+}
+
+
+.feture-name {
+    display: block;
+    height: 28px;
+    padding-top: 19px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.feture-price {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.offer {
+    height: 529px;
+    padding-bottom: 97px;
+}
+
+.offer-promo {
+    width: 767px;
+    float: left;
+    height: 100%;
+    background-color: #222224;
+    background-image: url('img/offer.jpg');
+}
+
+.offer-desc {
+    background-color: #222224;
+}
+
+.offer-block {
+    padding-top: 48px;
+    padding-left: 802px;
+}
+
+.offer-desc-img {
+
+}
+
+.offer-desc-title {
+    padding-left: 33px;
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.offer-desc-text {
+    padding-left: 110px;
+    color: #fbfbfb;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+}
+
+
+.subscribe {
+    background-image: url('img/subcribe.jpg');
+    height: 438px;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #e6e6e6;
+}
+
+.footer-left {
+
+}
+
+.footer-right {
+
+}
+
+.footer-copyright {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
 }
