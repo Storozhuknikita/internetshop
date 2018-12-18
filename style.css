@@ -322,14 +322,19 @@ body {
 
 .footer {
     background-color: #e6e6e6;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-left {
-
+    align-items: center;
 }
 
 .footer-right {
-
+    display: flex;
+    align-items: center;
 }
 
 .footer-copyright {
