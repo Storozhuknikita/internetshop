@@ -196,15 +196,20 @@ body {
 
 .fetures {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
+
 
 .fetures-info {
     padding-bottom: 40px;
 }
 
 .fetures-end {
-    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .fetures-title {
@@ -280,11 +285,30 @@ body {
     background-image: url('img/offer.jpg');
 }
 
+.offer-promo-title {
+    padding-left: 39px;
+    padding-top: 146px;
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.offer-promo-title-span {
+    font-size: 32px;
+    letter-spacing: 0.9px;
+}
+
+
 .offer-desc {
     background-color: #222224;
+    height: 529px;
 }
 
 .offer-block {
+    height: 103px;
+    width: 294px;
     padding-top: 48px;
     padding-left: 802px;
 }
@@ -302,7 +326,7 @@ body {
 }
 
 .offer-desc-text {
-    padding-left: 110px;
+    padding-left: 82px;
     color: #fbfbfb;
     font-size: 14px;
     font-weight: 300;
@@ -315,9 +339,95 @@ body {
     height: 438px;
 }
 
+.reviews {
+    padding-left: 231px;
+    padding-top: 111px;
+}
+
+.review-block {
+    width: 497px;
+    height: 126px;
+}
+
+.review-img {
+
+}
+
+.review-text {
+    color: #222224;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0.4px;
+}
+
+.review-author {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.review-author-city {
+    color: #222224;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
 
 
+.subscribe-block {
+    display: flex;
+    justify-content: right;
+}
 
+.subscribe-block input{
+    border-radius: 23px;
+    background-color: #e1e1e1;
+}
+
+.subscribe-block button {
+    border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
+}
+
+.subscribe-text-title {
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    letter-spacing: 0.35px;
+}
+
+.subscribe-text-span {
+    color: #222224;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.blocks {
+    flex-wrap:  nowrap;
+    padding-top: 109px;
+    width: 427px;
+    max-height: 279px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.block-text {
+    color: #898989;
+    font-size: 14px;
+    font-weight: 300;
+
+    letter-spacing: 0.35px;
+}
 
 
 .footer {
