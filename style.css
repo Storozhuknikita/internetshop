@@ -340,19 +340,21 @@ body {
 .subscribe {
     background-image: url('img/subcribe.jpg');
     height: 438px;
+    display: flex;
 }
 
 .reviews {
-    padding-left: 231px;
     padding-top: 111px;
 }
 
 .review-block {
     width: 497px;
     height: 126px;
+    display: flex;
+    align-items: center;
 }
 
-.review-img {
+.review-block img {
 
 }
 
@@ -381,8 +383,7 @@ body {
 
 
 .subscribe-block {
-    display: flex;
-    justify-content: right;
+    display: block;
 }
 
 .subscribe-block input{
@@ -399,7 +400,6 @@ body {
     font-size: 24px;
     letter-spacing: 0.6px;
     text-transform: uppercase;
-
     letter-spacing: 0.35px;
 }
 
@@ -411,16 +411,14 @@ body {
 
 
 .links {
-
+    padding-left: 0px;
 }
 
 .blocks {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
     display: flex;
-
-
+    padding-top: 109px;
+    max-height: 279px;
+    padding-bottom: 89px;
 }
 
 .blocks h3 {
@@ -440,21 +438,23 @@ body {
     text-decoration: none;
 }
 
+.block-info {
+    width: 427px;
+    display: block;
+}
+
+.block-links-1 {
+    display: block;
+    padding-left: 62px;
+}
+
 .block-text {
     color: #898989;
     font-size: 14px;
     font-weight: 300;
-
     letter-spacing: 0.35px;
 }
 
-.block-info {
-
-}
-
-.block-lonks {
-
-}
 
 .footer {
     background-color: #e6e6e6;
