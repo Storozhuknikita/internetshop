@@ -233,16 +233,19 @@ body {
 
 .fetures-items {
     padding-bottom: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
 }
 
 /*
 Не работает отступ внизу между строками.
  */
 .feture {
-    width: 261px;
     max-height: 279px;
-    display: inline-block;
     padding-right: 20px;
+    padding-bottom: 80px;
 }
 
 .feture a {
@@ -413,7 +416,6 @@ body {
 }
 
 .blocks {
-    flex-wrap:  nowrap;
     padding-top: 109px;
     width: 427px;
     max-height: 279px;
