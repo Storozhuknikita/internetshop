@@ -389,6 +389,12 @@ body {
 .subscribe-block input{
     border-radius: 23px;
     background-color: #e1e1e1;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    padding: 10px 15px;
+    text-decoration: none;
 }
 
 .subscribe-block button {
@@ -416,6 +422,7 @@ body {
 
 .blocks {
     display: flex;
+    display: -moz-inline-stack;
     padding-top: 109px;
     max-height: 279px;
     padding-bottom: 89px;
@@ -426,8 +433,8 @@ body {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-
     letter-spacing: 0.45px;
+    padding-bottom: 20px;
 }
 
 .blocks a {
@@ -448,29 +455,42 @@ body {
     padding-left: 62px;
 }
 
+.block-links-1 a{
+    display: block;
+    margin-top: 10px;
+}
+
 .block-text {
     color: #898989;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.35px;
+    padding-top: 10px;
 }
 
 
 .footer {
     background-color: #e6e6e6;
     height: 79px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 .footer-left {
-    align-items: center;
+    padding-top: 24px;
+    display: inline-block;
+    text-align: justify;
+    float: left;
 }
 
 .footer-right {
-    display: flex;
-    align-items: center;
+    padding-top: 24px;
+    display: inline-block;
+    float: right;
+    clear: left;
+}
+
+.social {
+    padding-right: 8px;
 }
 
 .footer-copyright {
