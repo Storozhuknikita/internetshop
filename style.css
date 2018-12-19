@@ -411,16 +411,33 @@ body {
 
 
 .links {
-    display: flex;
-    justify-content: center;
+
 }
 
 .blocks {
-    padding-top: 109px;
-    width: 427px;
-    max-height: 279px;
-    display: inline-block;
-    padding-right: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.blocks h3 {
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    letter-spacing: 0.45px;
+}
+
+.blocks a {
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-decoration: none;
 }
 
 .block-text {
@@ -431,6 +448,13 @@ body {
     letter-spacing: 0.35px;
 }
 
+.block-info {
+
+}
+
+.block-lonks {
+
+}
 
 .footer {
     background-color: #e6e6e6;
