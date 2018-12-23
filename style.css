@@ -437,24 +437,28 @@ body {
 }
 
 .review-block {
+    float: left;
     width: 497px;
     height: 126px;
-    display: flex;
     align-items: center;
+    display: inline-block;
 }
 
 .review-block img {
-
+    float: left;
 }
 
 .review-text {
+    padding-left: 28px;
     color: #222224;
     font-size: 16px;
     font-style: italic;
     letter-spacing: 0.4px;
+    display: flex;
 }
 
 .review-author {
+    padding-left: 28px;
     color: #f16d7f;
     font-size: 16px;
     font-weight: 700;
@@ -464,6 +468,7 @@ body {
 }
 
 .review-author-city {
+    padding-left: 28px;
     color: #222224;
     font-size: 12px;
     font-weight: 300;
@@ -472,12 +477,13 @@ body {
 
 
 .subscribe-block {
-    display: block;
+
 }
 
 .subscribe-block input{
-    border-radius: 23px;
+    border-radius: 23px 0px 0px 23px;
     background-color: #e1e1e1;
+
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
@@ -554,7 +560,7 @@ body {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.35px;
-    padding-top: 10px;
+    padding-top: 29px;
 }
 
 
@@ -565,21 +571,25 @@ body {
 }
 
 .footer-left {
-    padding-top: 24px;
+    padding-top: 35px;
     display: inline-block;
-    text-align: justify;
-    float: left;
+
 }
 
 .footer-right {
     padding-top: 24px;
     display: inline-block;
     float: right;
-    clear: left;
+
 }
 
 .social {
-    padding-right: 8px;
+    display: inline-block;
+}
+
+.social:hover {
+    background-color: #f16d7f;
+    filter: brightness(50%);
 }
 
 .footer-copyright {
