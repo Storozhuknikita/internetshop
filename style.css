@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Lato', 'sans-serif';
+    font-family: 'Lato', 'sans-serif', 'Lato - Black';
 }
 .container {
     width: 1140px;
@@ -564,7 +564,7 @@ body {
 }
 
 
-.footer {
+footer {
     background-color: #e6e6e6;
     height: 79px;
 
@@ -597,4 +597,170 @@ body {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.4px;
+}
+
+
+/*
+    Для формы в фокусе
+ */
+form input:focus {
+    background-color: lightyellow;
+}
+
+/*
+    Для формы с обязательным вводом
+ */
+form input:required {
+    background-color: lightyellow;
+}
+
+
+
+/*
+    Checkout Page
+ */
+
+.breadcrumb {
+    height: 148px;
+    background-color: #f8f3f4;
+}
+
+.breadcrumb-title {
+    display: block;
+    padding-top: 65px;
+    width: 176px;
+    height: 18px;
+    color: #f16d7f;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.checkout {
+
+}
+
+.checkout-first {
+    padding-top: 89px;
+
+}
+
+.checkout-title {
+    /* Style for "01.   Ship" */
+    width: 169px;
+    height: 13px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.checkout-first-left-block {
+    display: block;
+    padding-top: 36px;
+    padding-left: 35px;
+
+}
+
+.checkout-first-left-block-title {
+    /* Style for "register a" */
+    display: block;
+    height: 10px;
+    color: #222222;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    padding-top: 32px;
+}
+
+.checkout-first-left-block-span {
+    display: block;
+    /* Style for "Fast and e" */
+    height: 12px;
+    color: #b3b2b2;
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 38px;
+}
+
+.checkout-first-left-block-text {
+    display: block;
+    /* Style for "Register w" */
+    height: 12px;
+    color: #b3b2b2;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 30px;
+
+}
+
+.checkout-first-left-block button {
+    /* Style for "Rectangle" */
+    width: 180px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+}
+
+
+.radio input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+
+    /* Style for "Ellipse 4" */
+    width: 14px;
+    height: 14px;
+    border: 2px solid #555555;
+    background-color: #ffffff;
+}
+.radio__text {
+    position: relative;
+    padding: 0 0 0 35px;
+    cursor: pointer;
+}
+.radio__text:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #CDD1DA;
+    border-radius: 50%;
+    background: #FFF;
+}
+.radio__text:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #9FD468;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+    opacity: 0;
+    transition: .2s;
+}
+.radio input:checked + .radio__text:after {
+    opacity: 1;
+    /* Style for "Ellipse 5" */
+    width: 6px;
+    height: 6px;
+    background-color: #000000;
+}
+.radio input:focus + .radio__text:before {
+    box-shadow: 0 0 0 3px rgba(255,255,0,.7);
+}
+
+
+.checkout-first-right-block {
+
 }
