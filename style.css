@@ -1,3 +1,7 @@
+/*
+    * Основа основ
+ */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +15,9 @@ body {
     margin: 0 auto;
 }
 
+/*
+    * Шапка сайта
+ */
 .header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
     border: 1px solid #ececec;
@@ -104,6 +111,9 @@ body {
     text-decoration: none;
 }
 
+/*
+    * Меню со ссылками на всех страницах
+ */
 .menu-link {
     display: block;
     padding: 20px 20px;
@@ -124,6 +134,9 @@ body {
     justify-content: center
 }
 
+/*
+    * Меню Промо
+ */
 .promo {
     background-color: #e8e8e8;
     height: 613px;
@@ -164,6 +177,10 @@ body {
     color: #f16d7f;
 }
 
+
+/*
+    * Спец категории на главной
+ */
 .category {
     padding-top: 98px;
     height: 882px;
@@ -237,10 +254,8 @@ body {
 }
 
 /*
-
-1) Косяк с выравнием элементов и отступами между ними
+    * Вывод всех блоков товаров на главной
  */
-
 
 .fetures {
     display: flex;
@@ -289,7 +304,7 @@ body {
 }
 
 /*
-Не работает отступ внизу между строками.
+    * Вывод конкретного блока товаров на главной
  */
 .feture {
     max-height: 280px;
@@ -363,6 +378,10 @@ body {
     text-transform: uppercase;
 }
 
+
+/*
+    * Блок на главной со спец предложением
+ */
 .offer {
     height: 529px;
     padding-bottom: 97px;
@@ -426,22 +445,30 @@ body {
 }
 
 
+/*
+    * Общий блок с отзывами и подпиской
+ */
 .subscribe {
     background-image: url('img/subcribe.jpg');
     height: 438px;
-    display: flex;
 }
 
+/*
+    * Отзывы на главной
+ */
 .reviews {
     padding-top: 111px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .review-block {
     float: left;
-    width: 497px;
+    width: 50%;
     height: 126px;
     align-items: center;
-    display: inline-block;
 }
 
 .review-block img {
@@ -462,8 +489,6 @@ body {
     color: #f16d7f;
     font-size: 16px;
     font-weight: 700;
-
-    font-weight: 700;
     letter-spacing: 0.4px;
 }
 
@@ -476,14 +501,20 @@ body {
 }
 
 
+/*
+    * Блок с формой подписки на главной странице
+ */
 .subscribe-block {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
 }
 
 .subscribe-block input{
     border-radius: 23px 0px 0px 23px;
     background-color: #e1e1e1;
-
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
@@ -501,16 +532,20 @@ body {
     font-size: 24px;
     letter-spacing: 0.6px;
     text-transform: uppercase;
-    letter-spacing: 0.35px;
+    padding-bottom: 5px;
 }
 
 .subscribe-text-span {
     color: #222224;
     font-size: 14px;
     font-weight: 400;
+    padding-bottom: 30px;
 }
 
 
+/*
+    * Блок со ссылками вниху страницы для всех страниц
+ */
 .links {
     padding-left: 0px;
 }
@@ -563,6 +598,10 @@ body {
     padding-top: 29px;
 }
 
+
+/*
+    * Footer для всех страниц сайта
+ */
 
 footer {
     background-color: #e6e6e6;
@@ -623,11 +662,20 @@ form input:required {
 .breadcrumb {
     height: 148px;
     background-color: #f8f3f4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.breadcrumb-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 65px;
 }
 
 .breadcrumb-title {
-    display: block;
-    padding-top: 65px;
     width: 176px;
     height: 18px;
     color: #f16d7f;
@@ -637,39 +685,110 @@ form input:required {
     text-transform: uppercase;
 }
 
+.breadcrumb-nav {
+    height: 11px;
+    color: #f16d7f;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.breadcrumb-nav-back {
+    /* Text style for "Home / Men" */
+    color: #636363;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.breadcrumb-nav-this {
+    /* Text style for "New Arriva" */
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
 .checkout {
 
 }
 
-.checkout-first {
-    padding-top: 89px;
-
+.checkout-num {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 .checkout-title {
-    /* Style for "01.   Ship" */
     width: 169px;
     height: 13px;
     color: #222222;
-    font-family: Lato;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
 }
-
-.checkout-first-left-block {
-    display: block;
+/*
+    * Для общих блоков всех
+ */
+.checkout-blocks {
     padding-top: 36px;
     padding-left: 35px;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.checkout-blocks a {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.checkout-blocks input {
+    width: 50%;
+    height: 45px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    margin: 16px 0 23px 1px;
+}
+
+.checkout-first-left-block {
+    width: 50%;
+}
+
+.checkout-first-right-block {
+    width: 50%;
+}
+
+.checkout-first-right-block-label {
+    width: 92px;
+    height: 8px;
+    color: #222222;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+/*
+    * Красная звездочка required
+ */
+.checkout-first-right-block-z {
+    color: #ff0d0d;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
 .checkout-first-left-block-title {
-    /* Style for "register a" */
     display: block;
     height: 10px;
     color: #222222;
-    font-family: Lato;
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
@@ -679,35 +798,35 @@ form input:required {
 
 .checkout-first-left-block-span {
     display: block;
-    /* Style for "Fast and e" */
     height: 12px;
     color: #b3b2b2;
     font-size: 13px;
     line-height: 20px;
-    padding-bottom: 38px;
+    padding-bottom: 15px;
 }
 
 .checkout-first-left-block-text {
     display: block;
-    /* Style for "Register w" */
     height: 12px;
     color: #b3b2b2;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     padding-bottom: 30px;
-
 }
 
-.checkout-first-left-block button {
-    /* Style for "Rectangle" */
+.checkout-blocks button {
     width: 180px;
     height: 50px;
     border: 1px solid #eaeaea;
     background-color: #ffffff;
+    margin-top: 23px;
 }
 
 
+/*
+    * Стилизация радио кнопок
+ */
 .radio input {
     position: absolute;
     z-index: -1;
@@ -751,16 +870,10 @@ form input:required {
 }
 .radio input:checked + .radio__text:after {
     opacity: 1;
-    /* Style for "Ellipse 5" */
     width: 6px;
     height: 6px;
     background-color: #000000;
 }
 .radio input:focus + .radio__text:before {
     box-shadow: 0 0 0 3px rgba(255,255,0,.7);
-}
-
-
-.checkout-first-right-block {
-
 }
