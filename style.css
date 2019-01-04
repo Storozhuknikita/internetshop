@@ -421,7 +421,7 @@ body {
 .offer-promo {
     width: 767px;
     float: left;
-    height: 100%;
+    height: 529px;
     background-color: #222224;
     background-image: url('img/offer.jpg');
 }
@@ -445,17 +445,20 @@ body {
 .offer-desc {
     background-color: #222224;
     height: 529px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .offer-block {
     height: 103px;
     width: 294px;
     padding-top: 48px;
-    padding-left: 802px;
+    padding-left: 37px;
 }
 
 .offer-desc-img {
-
+    display: unset;
 }
 
 .offer-desc-title {
@@ -500,6 +503,26 @@ body {
     width: 50%;
     height: 126px;
     align-items: center;
+}
+
+.review-block-button {
+    padding-left: 112px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review-block-hr {
+    width: 37px;
+    height: 3px;
+    background-color: #ef5b70;
+}
+
+.review-block-hr-inactive {
+    width: 37px;
+    height: 3px;
+    background-color: #d6d6d6;
 }
 
 .review-block img {
