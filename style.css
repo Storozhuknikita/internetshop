@@ -596,7 +596,6 @@ body {
     padding-bottom: 30px;
 }
 
-
 /*
     * Блок со ссылками вниху страницы для всех страниц
  */
@@ -678,11 +677,20 @@ footer {
 
 .social {
     display: inline-block;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    color: gray;
 }
+
+.social, i {
+    padding-top: 4px;
+}
+
 
 .social:hover {
     background-color: #f16d7f;
-    filter: brightness(50%);
 }
 
 .footer-copyright {
@@ -750,14 +758,12 @@ form input:required {
 }
 
 .breadcrumb-nav-back {
-    /* Text style for "Home / Men" */
     color: #636363;
     font-weight: 300;
     text-decoration: none;
 }
 
 .breadcrumb-nav-this {
-    /* Text style for "New Arriva" */
     font-weight: 700;
     text-decoration: none;
 }
@@ -887,7 +893,6 @@ form input:required {
     opacity: 0;
     margin: 10px 0 0 7px;
 
-    /* Style for "Ellipse 4" */
     width: 14px;
     height: 14px;
     border: 2px solid #555555;
@@ -939,7 +944,6 @@ form input:required {
  */
 
 .img-slider {
-    /* Style for "Rectangle" */
     height: 777px;
     border: 1px solid #eaeaea;
     background-color: #f7f7f7;
@@ -956,7 +960,6 @@ form input:required {
 
 .img-slider-block-left {
     display: flex;
-    /* Style for "Rounded Re" */
     margin-top: 360px;
     width: 47px;
     height: 47px;
@@ -1071,7 +1074,7 @@ form input:required {
 }
 
 .product-material-value {
-    text-align: cemter;
+    text-align: center;
     color: #2f2f2f;
 }
 
@@ -1099,6 +1102,13 @@ form input:required {
     height: 35px;
     border: 1px solid #eaeaea;
     background-color: #ffffff;
+
+    color: #bcbcbc;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
 }
 
 .product-block-button {
@@ -1108,7 +1118,6 @@ form input:required {
 }
 
 .product-block-button button {
-    /* Style for "Rectangle" */
     width: 537px;
     height: 55px;
     border: 1px solid #ef5b70;
