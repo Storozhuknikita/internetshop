@@ -1,3 +1,16 @@
+/* ОС от 10 января 2019 года
+Шрифт так и не подключился
+Очень хорошо пошли каникулы вам на пользу, теперь прям совершенно другой внешний вид
+Совершенно забыли правда про удобства сайта, но это у всех так, так что вам необходимо посмотреть что именно вам не подходит
+В поле ввода нет отступа слева и справа
+Выпадающее меню сегодня буду показывать
+Нажимаю на меню, оно прыгает, такого быть не должно
+Лого должен вести на главную страницу
+HOME / MEN / NEW ARRIVALS ссылки не работают, а должны
+фон subscribe не должен уходить влево или право, его надо просто центрировать
+Отличный вариант, просто чуть больше удобства у сайта
+ */
+
 /*
     * Основа основ
  */
@@ -10,128 +23,10 @@
 body {
     font-family: 'Lato', 'sans-serif', 'Lato - Black';
 }
+
 .container {
     width: 1140px;
     margin: 0 auto;
-}
-
-/*
-    * Шапка сайта
- */
-.header {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
-    border: 1px solid #ececec;
-    background-color: #ffffff;
-    height: 100px;
-}
-
-.header-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.header-right {
-    display: flex;
-    align-items: center;
-}
-
-.header-right img {
-    padding-right: 26px;
-}
-
-.header-left {
-    display: flex;
-    align-items: center;
-}
-
-.header-logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
-
-.img-logo {
-    padding-right: 13px;
-}
-
-.header-form {
-    padding-left: 39px;
-    display: flex;
-    align-items: center;
-}
-
-.header-form-button {
-    width: 87px;
-    height: 38px;
-
-    border-radius: 3px 0 0 3px;
-    border: 1px solid #e6e6e6;
-    background-color: #cdcdcc;
-    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
-}
-
-.header-form-button-text {
-    padding-top: 10px;
-    padding-left: 16px;
-    color: #222222;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 0.35px;
-}
-
-.header-form-input {
-    border-radius: 0 3px 3px 0;
-    border: 1px solid #e6e6e6;
-    background-color: #ffffff;
-    width: 317px;
-    height: 38px;
-}
-
-
-.header-form-search {
-    border-radius: 0 3px 3px 0;
-    border: 1px solid #e6e6e6;
-    background-color: #ffffff;
-    height: 38px;
-}
-
-.navigation {
-    background-color: #ffffff;
-}
-
-.button {
-    background-color: #f16d7f;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0.38px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-/*
-    * Меню со ссылками на всех страницах
- */
-.menu-link {
-    display: block;
-    padding: 20px 20px;
-    color: #222222;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.menu-link:hover {
-    color: #f16d7f;
-}
-
-.menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: center
 }
 
 /*
@@ -143,7 +38,7 @@ body {
 }
 
 .promo-content {
-    background-image: url('img/promo.jpg');
+    background-image: url('../img/promo.jpg');
     height: 100%;
     background-position: 0 -52px;
 }
@@ -195,7 +90,7 @@ body {
 }
 
 .category-block1 {
-    background-image: url('img/photo1.jpg');
+    background-image: url('../img/photo1.jpg');
     width: 560px;
     height: 542px;
     background-color: #dadad2;
@@ -203,7 +98,7 @@ body {
 }
 
 .category-block2 {
-    background-image: url('img/photo2.jpg');
+    background-image: url('../img/photo2.jpg');
     width: 560px;
     height: 261px;
     background-color: #dadad2;
@@ -211,7 +106,7 @@ body {
 }
 
 .category-block3 {
-    background-image: url('img/photo3.jpg');
+    background-image: url('../img/photo3.jpg');
     width: 560px;
     height: 261px;
     background-color: #dadad2;
@@ -222,7 +117,7 @@ body {
 }
 
 .category-block4 {
-    background-image: url('img/photo4.jpg');
+    background-image: url('../img/photo4.jpg');
     width: 560px;
     height: 542px;
     background-color: #dadad2;
@@ -480,244 +375,6 @@ body {
 
 
 /*
-    * Общий блок с отзывами и подпиской
- */
-.subscribe {
-    background-image: url('img/subcribe.jpg');
-    height: 438px;
-}
-
-/*
-    * Отзывы на главной
- */
-.reviews {
-    padding-top: 111px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.review-block {
-    float: left;
-    width: 50%;
-    height: 126px;
-    align-items: center;
-}
-
-.review-block-button {
-    padding-left: 112px;
-    width: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.review-block-hr {
-    width: 37px;
-    height: 3px;
-    background-color: #ef5b70;
-}
-
-.review-block-hr-inactive {
-    width: 37px;
-    height: 3px;
-    background-color: #d6d6d6;
-}
-
-.review-block img {
-    float: left;
-}
-
-.review-text {
-    padding-left: 28px;
-    color: #222224;
-    font-size: 16px;
-    font-style: italic;
-    letter-spacing: 0.4px;
-    display: flex;
-}
-
-.review-author {
-    padding-left: 28px;
-    color: #f16d7f;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.4px;
-}
-
-.review-author-city {
-    padding-left: 28px;
-    color: #222224;
-    font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 0.3px;
-}
-
-
-/*
-    * Блок с формой подписки на главной странице
- */
-.subscribe-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    align-items: center;
-}
-
-.subscribe-block input{
-    border-radius: 23px 0px 0px 23px;
-    background-color: #e1e1e1;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0.38px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-.subscribe-block button {
-    border-radius: 0 23px 23px 0;
-    background-color: #f16d7f;
-}
-
-.subscribe-text-title {
-    font-size: 24px;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-    padding-bottom: 5px;
-}
-
-.subscribe-text-span {
-    color: #222224;
-    font-size: 14px;
-    font-weight: 400;
-    padding-bottom: 30px;
-}
-
-/*
-    * Блок со ссылками вниху страницы для всех страниц
- */
-.links {
-    padding-left: 0px;
-}
-
-.blocks {
-    display: flex;
-    display: -moz-inline-stack;
-    padding-top: 109px;
-    max-height: 279px;
-    padding-bottom: 89px;
-}
-
-.blocks h3 {
-    color: #f16d7f;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.45px;
-    padding-bottom: 20px;
-}
-
-.blocks a {
-    color: #898989;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.4px;
-    text-decoration: none;
-}
-
-.block-info {
-    width: 427px;
-    display: block;
-}
-
-.block-links-1 {
-    display: block;
-    padding-left: 62px;
-}
-
-.block-links-1 a{
-    display: block;
-    margin-top: 10px;
-}
-
-.block-text {
-    color: #898989;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 0.35px;
-    padding-top: 29px;
-}
-
-
-/*
-    * Footer для всех страниц сайта
- */
-
-footer {
-    background-color: #e6e6e6;
-    height: 79px;
-
-}
-
-.footer-left {
-    padding-top: 35px;
-    display: inline-block;
-
-}
-
-.footer-right {
-    padding-top: 24px;
-    display: inline-block;
-    float: right;
-
-}
-
-.social {
-    display: inline-block;
-    background-color: white;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    color: gray;
-}
-
-.social, i {
-    padding-top: 4px;
-}
-
-
-.social:hover {
-    background-color: #f16d7f;
-}
-
-.footer-copyright {
-    color: #7a7a7a;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.4px;
-}
-
-
-/*
-    Для формы в фокусе
- */
-form input:focus {
-    background-color: lightyellow;
-}
-
-/*
-    Для формы с обязательным вводом
- */
-form input:required {
-    background-color: lightyellow;
-}
-
-
-
-/*
     Checkout Page
  */
 
@@ -969,7 +626,6 @@ form input:required {
 .img-slider-block-right {
     margin-top: 360px;
     display: flex;
-    /* Style for "Rounded Re" */
     width: 47px;
     height: 47px;
     background-color: #d8d8d8;
@@ -1079,7 +735,6 @@ form input:required {
 }
 
 .product-price {
-    /* Style for "$561" */
     width: 54px;
     height: 24px;
     color: #ef5b70;
@@ -1234,7 +889,6 @@ form input:required {
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
-    /* Text style for "|, |, |, |" */
     color: #dfdfdf;
 }
 
@@ -1395,3 +1049,4 @@ form input:required {
     font-weight: 700;
     text-transform: uppercase;
 }
+

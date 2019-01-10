@@ -1,0 +1,220 @@
+/*
+    * Общий блок с отзывами и подпиской
+ */
+.subscribe {
+    background-image: url('../img/subcribe.jpg');
+    height: 438px;
+}
+
+/*
+    * Отзывы на главной
+ */
+.reviews {
+    padding-top: 111px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.review-block {
+    float: left;
+    width: 50%;
+    height: 126px;
+    align-items: center;
+}
+
+.review-block-button {
+    padding-left: 112px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review-block-hr {
+    width: 37px;
+    height: 3px;
+    background-color: #ef5b70;
+}
+
+.review-block-hr-inactive {
+    width: 37px;
+    height: 3px;
+    background-color: #d6d6d6;
+}
+
+.review-block img {
+    float: left;
+}
+
+.review-text {
+    padding-left: 28px;
+    color: #222224;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0.4px;
+    display: flex;
+}
+
+.review-author {
+    padding-left: 28px;
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.review-author-city {
+    padding-left: 28px;
+    color: #222224;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+
+/*
+    * Блок с формой подписки на главной странице
+ */
+.subscribe-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+.subscribe-block input{
+    border-radius: 23px 0 0 23px;
+    background-color: #e1e1e1;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.subscribe-block button {
+    border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
+}
+
+.subscribe-text-title {
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.subscribe-text-span {
+    color: #222224;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+/*
+    * Блок со ссылками вниху страницы для всех страниц
+ */
+.links {
+    padding-left: 0;
+}
+
+.blocks {
+    display: flex;
+    display: -moz-inline-stack;
+    padding-top: 109px;
+    max-height: 279px;
+    padding-bottom: 89px;
+}
+
+.blocks h3 {
+    color: #f16d7f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    padding-bottom: 20px;
+}
+
+.blocks a {
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+}
+
+.block-info {
+    width: 427px;
+    display: block;
+}
+
+.block-links-1 {
+    display: block;
+    padding-left: 62px;
+}
+
+.block-links-1 a{
+    display: block;
+    margin-top: 10px;
+}
+
+.block-text {
+    color: #898989;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+    padding-top: 29px;
+}
+
+
+/*
+    * Footer для всех страниц сайта
+ */
+
+footer {
+    background-color: #e6e6e6;
+    height: 79px;
+
+}
+
+.footer-left {
+    padding-top: 35px;
+    display: inline-block;
+
+}
+
+.footer-right {
+    padding-top: 24px;
+    display: inline-block;
+    float: right;
+
+}
+
+.social {
+    display: inline-block;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    color: gray;
+}
+
+.social, i {
+    padding-top: 4px;
+}
+
+
+.social:hover {
+    background-color: #f16d7f;
+}
+
+.footer-copyright {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}

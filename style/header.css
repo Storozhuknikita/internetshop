@@ -1,0 +1,192 @@
+/*
+    * Шапка сайта
+ */
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    height: 100px;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right img {
+    padding-right: 26px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.img-logo {
+    padding-right: 13px;
+}
+
+.header-form {
+    padding-left: 39px;
+    display: flex;
+    align-items: center;
+}
+
+.header-form-button {
+    width: 87px;
+    height: 38px;
+
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+}
+
+.header-form-button-text {
+    padding-top: 10px;
+    padding-left: 16px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+}
+
+.header-form-input {
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    width: 317px;
+    height: 38px;
+}
+
+
+.header-form-search {
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    height: 38px;
+}
+
+.navigation {
+    background-color: #ffffff;
+}
+
+.button {
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/*
+    * Меню со ссылками на всех страницах
+ */
+.menu-list {
+    position: relative;
+}
+
+.menu-list:hover .drop{
+    display: flex;
+}
+
+.menu-list-last:hover .drop {
+
+}
+
+.menu-link {
+    display: block;
+    padding: 20px 20px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #f16d7f;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center
+}
+
+
+/*
+    Выпадающее меню
+ */
+.drop {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    display: none;
+    position: absolute;
+}
+
+.drop:before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    top: -8px;
+}
+
+.drop-flex {
+    width: 235px;
+    margin-right: 46px;
+}
+
+.drop-flex:last-of-type {
+    margin-right: 0;
+}
+
+.drop-h3 {
+    color: #232323;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.drop-link {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.35px;
+    text-decoration: none;
+}
+
+.drop-link:hover {
+    color: #f16d7f;
+}
+
+.drop-menu {
+    list-style-type: none;
+}

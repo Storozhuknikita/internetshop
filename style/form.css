@@ -1,0 +1,15 @@
+
+/*
+    Для формы в фокусе
+ */
+form input:focus {
+    background-color: lightyellow;
+}
+
+/*
+    Для формы с обязательным вводом
+ */
+form input:required {
+    background-color: lightyellow;
+}
+
