@@ -13,3 +13,14 @@ form input:required {
     background-color: lightyellow;
 }
 
+
+
+/*
+    * Убрать странную хуйню с форм
+ */
+input {outline: none;}
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #fff !important; /* Цвет фона */
+    -webkit-text-fill-color: #999 !important; /* цвет текста */
+    color: #999 !important; /* цвет текста */
+}

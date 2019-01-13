@@ -9,6 +9,20 @@
 HOME / MEN / NEW ARRIVALS ссылки не работают, а должны
 фон subscribe не должен уходить влево или право, его надо просто центрировать
 Отличный вариант, просто чуть больше удобства у сайта
+
+ДЗ от 10.01.2019
+
+1. Научиться пользоваться официальной документацией http://getbootstrap.com/
+
+2. Приступаем к верстке третьего макета: товар каталога singe page.psd.
+
+3. *Создание шаблона с использованием Twitter Bootstrap
+
+4. *Добавление блока видео вместо блока с любой картинкой на сайте.
+
+5. *Ознакомиться с новой, четвертой версией bootstrap.
+
+Задания под * предназначены для учеников, которые справились с основной частью и могут выполнить дополнительное задание.
  */
 
 /*
@@ -764,6 +778,7 @@ body {
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
+    padding-left: 5px;
 }
 
 .product-block-button {
@@ -783,7 +798,6 @@ body {
     color: #ef5b70;
     font-family: Lato;
     font-size: 16px;
-    font-weight: 700;
 }
 
 
@@ -917,17 +931,6 @@ body {
 .list-category-key a {
     padding-left: 10px;
     color: #6f6e6e;
-    font-family: Lato;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.list-category-key a:hover, a:active {
-    padding-left: 10px;
-    color: #ef5b70;
     font-family: Lato;
     font-size: 14px;
     font-weight: 700;
