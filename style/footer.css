@@ -4,6 +4,8 @@
 .subscribe {
     background-image: url('../img/subcribe.jpg');
     height: 438px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*

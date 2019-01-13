@@ -24,3 +24,14 @@ input:-webkit-autofill {
     -webkit-text-fill-color: #999 !important; /* цвет текста */
     color: #999 !important; /* цвет текста */
 }
+
+
+.button {
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    padding: 10px 15px;
+    text-decoration: none;
+}

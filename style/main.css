@@ -332,7 +332,7 @@ body {
     float: left;
     height: 529px;
     background-color: #222224;
-    background-image: url('img/offer.jpg');
+    background-image: url('../img/offer.jpg');
 }
 
 .offer-promo-title {
