@@ -1,0 +1,36 @@
+@width-site: 1200px;
+@border-width: 1px;
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: @width-site;
+  margin: 0 auto;
+  background-color: darkcyan;
+  height: 100px;
+}
+
+.content {
+  width: @width-site;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: @width-site / 3;
+  background-color: red;
+  height: 100px;
+}
+
+.footer {
+  width: @width-site;
+  margin: 0 auto;
+  background-color: #6f6e6e;
+  height: 100px;
+}
+
