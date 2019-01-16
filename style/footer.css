@@ -164,6 +164,10 @@
     margin-top: 10px;
 }
 
+.block-links-1 a:hover {
+    color: #f16d7f;
+}
+
 .block-text {
     color: #898989;
     font-size: 14px;
