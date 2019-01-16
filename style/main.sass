@@ -1,0 +1,1003 @@
+/*
+ *  * Основа основ
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700')
+
+*
+  margin: 0
+  padding: 0
+
+body
+  font-family: 'Lato', 'sans-serif', 'Lato - Black'
+
+a
+  text-decoration: none
+
+ul
+  list-style-type: none
+
+.container
+  width: 1140px
+  margin: 0 auto
+
+/*
+ *  * Меню Промо
+
+.promo
+  background-color: #e8e8e8
+  height: 613px
+
+.promo-content
+  background-image: url('../img/promo.jpg')
+  height: 100%
+  background-position: 0 -52px
+
+.promo-text
+  margin-top: 224px
+  float: left
+  border-left: 12px solid #f16d7f
+  padding-left: 19px
+
+.promo-h2
+  color: #222222
+  font-size: 60px
+  font-weight: 700
+  text-transform: uppercase
+  line-height: 45px
+  margin-bottom: 19px
+
+.promo-h3
+  color: #222222
+  font-size: 40px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 1px
+  line-height: 33px
+
+.pink
+  color: #f16d7f
+
+/*
+ *  * Спец категории на главной
+
+.category
+  padding-top: 98px
+  height: 882px
+
+.category-view
+  height: 100%
+  a
+    text-decoration: none
+
+.category-block1
+  background-image: url('../img/photo1.jpg')
+  width: 560px
+  height: 542px
+  background-color: #dadad2
+  float: left
+
+.category-block2
+  background-image: url('../img/photo2.jpg')
+  width: 560px
+  height: 261px
+  background-color: #dadad2
+  float: right
+
+.category-block3
+  background-image: url('../img/photo3.jpg')
+  width: 560px
+  height: 261px
+  background-color: #dadad2
+  float: left
+  margin-top: 20px
+  background-repeat: no-repeat
+  background-position: right
+
+.category-block4
+  background-image: url('../img/photo4.jpg')
+  width: 560px
+  height: 542px
+  background-color: #dadad2
+  float: right
+  margin-top: 20px
+
+.category-block
+  display: inline-block
+  margin-top: 19px
+  padding: 19px 19px 19px 19px
+  background-color: #ffffff
+  width: auto
+  height: auto
+
+.category-title
+  color: #222222
+  font-size: 18px
+  font-weight: 600
+  text-transform: uppercase
+
+.category-title-pink
+  color: #f16d7f
+  font-size: 30px
+  letter-spacing: 0.75px
+
+/*
+ *  * Вывод всех блоков товаров на главной
+
+.fetures
+  display: flex
+  justify-content: center
+
+.fetures-info
+  padding-bottom: 40px
+
+.fetures-end
+  display: flex
+  align-items: center
+  justify-content: center
+  padding-top: 40px
+  padding-bottom: 80px
+
+.fetures-title
+  display: flex
+  justify-content: center
+  color: #222222
+  font-size: 30px
+  font-weight: 700
+  letter-spacing: 0.75px
+  padding-bottom: 10px
+
+.fetures-desc
+  display: flex
+  justify-content: center
+  color: #9f9f9f
+  font-size: 14px
+  font-weight: 400
+  letter-spacing: 0.35px
+
+.fetures-items
+  padding-bottom: 40px
+  flex-wrap: wrap
+  flex-direction: row
+  justify-content: space-between
+  display: flex
+  position: relative
+
+/*
+ *  * Вывод конкретного блока товаров на главной
+
+.feture
+  max-height: 280px
+  width: 261px
+  padding-bottom: 80px
+  a
+    text-decoration: none
+  &:hover
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+    .feture-add-to-cart
+      display: block
+    .feture-img, .feture-img-cart
+      filter: brightness(50%)
+  a:hover
+    background: #222222
+    opacity: 0.5
+
+.feture-img
+  height: 280px
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+
+.feture-img-cart
+  height: 280px
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: center
+  background-color: #f7f7f7
+
+.feture-add-to-cart
+  padding-top: 15px
+  width: 123px
+  height: 39px
+  border: 1px solid #ffffff
+  position: absolute
+  left: 70px
+  top: 94px
+  color: #ffffff
+  font-size: 13px
+  font-weight: 700
+  text-decoration: none
+  text-align: center
+  display: none
+
+.feture-text
+  padding-bottom: 15px
+  padding-left: 15px
+
+.feture-name
+  display: flex
+  height: 28px
+  padding-top: 19px
+  color: #222222
+  font-size: 14px
+  font-weight: 400
+  text-transform: uppercase
+
+.feture-block
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+
+.feture-price
+  display: flex
+  color: #f16d7f
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+.feture-star
+  display: flex
+  padding-right: 5px
+  height: 14px
+  color: #e4af48
+  font-family: "Font Awesome"
+  font-size: 15px
+  font-weight: 400
+  text-transform: uppercase
+
+/*
+ *  * Блок на главной со спец предложением
+
+.offer
+  height: 529px
+  padding-bottom: 97px
+
+.offer-promo
+  width: 767px
+  float: left
+  height: 529px
+  background-color: #222224
+  background-image: url('../img/offer.jpg')
+
+.offer-promo-title
+  padding-left: 39px
+  padding-top: 146px
+  color: #ffffff
+  font-size: 54px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 1.5px
+
+.offer-promo-title-span
+  font-size: 32px
+  letter-spacing: 0.9px
+
+.offer-desc
+  background-color: #222224
+  height: 529px
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+
+.offer-block
+  height: 103px
+  width: 294px
+  padding-top: 48px
+  padding-left: 37px
+
+.offer-desc-img
+  display: unset
+
+.offer-desc-title
+  text-align: center
+  padding-left: 33px
+  color: #fbfbfb
+  font-size: 20px
+  font-weight: 700
+  letter-spacing: 0.5px
+
+.offer-desc-text
+  padding-left: 82px
+  color: #fbfbfb
+  font-size: 14px
+  font-weight: 300
+  letter-spacing: 0.35px
+
+/*
+ *  Checkout Page
+
+.breadcrumb
+  height: 148px
+  background-color: #f8f3f4
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.breadcrumb-block
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+  padding-top: 65px
+
+.breadcrumb-title
+  width: 176px
+  height: 18px
+  color: #f16d7f
+  font-size: 22px
+  font-weight: bold
+  line-height: 20px
+  text-transform: uppercase
+
+.breadcrumb-nav
+  height: 11px
+  color: #f16d7f
+  font-size: 14px
+  font-weight: 700
+  line-height: 20px
+  text-transform: uppercase
+  text-decoration: none
+
+.breadcrumb-nav-back
+  color: #636363
+  font-weight: 300
+  text-decoration: none
+
+.breadcrumb-nav-this
+  font-weight: 700
+  text-decoration: none
+
+.checkout
+
+.checkout-num
+  padding-top: 39px
+  padding-bottom: 39px
+  border-bottom: 1px solid #e8e8e8
+
+.checkout-title
+  width: 169px
+  height: 13px
+  color: #222222
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+/*
+ *  * Для общих блоков всех
+
+.checkout-blocks
+  padding-top: 36px
+  padding-left: 35px
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+  a
+    color: #222222
+    font-size: 14px
+    font-weight: 400
+    line-height: 20px
+    text-decoration: none
+  input
+    width: 50%
+    height: 45px
+    border: 1px solid #eaeaea
+    background-color: #ffffff
+    margin: 16px 0 23px 1px
+
+.checkout-first-left-block, .checkout-first-right-block
+  width: 50%
+
+.checkout-first-right-block-label
+  width: 92px
+  height: 8px
+  color: #222222
+  font-size: 12px
+  font-weight: 400
+  line-height: 20px
+  text-transform: uppercase
+
+/*
+ *  * Красная звездочка required
+
+.checkout-first-right-block-z
+  color: #ff0d0d
+  font-size: 15px
+  font-weight: 400
+  line-height: 20px
+
+.checkout-first-left-block-title
+  display: block
+  height: 10px
+  color: #222222
+  font-size: 13px
+  font-weight: 400
+  text-transform: uppercase
+  padding-bottom: 15px
+  padding-top: 32px
+
+.checkout-first-left-block-span
+  display: block
+  height: 12px
+  color: #b3b2b2
+  font-size: 13px
+  line-height: 20px
+  padding-bottom: 15px
+
+.checkout-first-left-block-text
+  display: block
+  height: 12px
+  color: #b3b2b2
+  font-size: 13px
+  font-weight: 400
+  line-height: 20px
+  padding-bottom: 30px
+
+.checkout-blocks button
+  width: 180px
+  height: 50px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  margin-top: 23px
+
+/*
+ *  * Стилизация радио кнопок
+
+.radio input
+  position: absolute
+  z-index: -1
+  opacity: 0
+  margin: 10px 0 0 7px
+  width: 14px
+  height: 14px
+  border: 2px solid #555555
+  background-color: #ffffff
+
+.radio__text
+  position: relative
+  padding: 0 0 0 35px
+  cursor: pointer
+  &:before
+    content: ''
+    position: absolute
+    top: -3px
+    left: 0
+    width: 22px
+    height: 22px
+    border: 1px solid #CDD1DA
+    border-radius: 50%
+    background: #FFF
+  &:after
+    content: ''
+    position: absolute
+    top: 1px
+    left: 4px
+    width: 16px
+    height: 16px
+    border-radius: 50%
+    background: #9FD468
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5)
+    opacity: 0
+    transition: .2s
+
+.radio input
+  &:checked + .radio__text:after
+    opacity: 1
+    width: 6px
+    height: 6px
+    background-color: #000000
+  &:focus + .radio__text:before
+    box-shadow: 0 0 0 3px rgba(255, 255, 0, 0.7)
+
+/*
+ *  * Page
+
+.img-slider
+  height: 777px
+  border: 1px solid #eaeaea
+  background-color: #f7f7f7
+  background-position: center
+  background-repeat: no-repeat
+
+.img-slider-canva
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-between
+
+.img-slider-block-left
+  display: flex
+  margin-top: 360px
+  width: 47px
+  height: 47px
+  background-color: #d8d8d8
+
+.img-slider-block-right
+  margin-top: 360px
+  display: flex
+  width: 47px
+  height: 47px
+  background-color: #d8d8d8
+
+.img-slider-right, .img-slider-left
+  width: 8px
+  height: 14px
+  color: #ffffff
+  font-family: "Font Awesome"
+  font-size: 24px
+  font-weight: 400
+  line-height: 24px
+  padding: 12px
+
+.product
+  margin-top: -75px
+  height: 730px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+
+.product-block
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-top: 75px
+  border-bottom: 1px solid #eaeaea
+
+.product-title
+  color: #f16d7f
+  font-size: 14px
+  font-weight: 700
+  line-height: 24px
+  text-transform: uppercase
+  padding-bottom: 10px
+
+.product-hr
+  width: 63px
+  height: 3px
+  background-color: #ef5b70
+  margin-bottom: 15px
+
+.product-brand
+  color: #4d4d4d
+  font-size: 18px
+  font-weight: 400
+  line-height: 24px
+  text-transform: uppercase
+  padding-bottom: 50px
+
+.product-text
+  width: 618px
+  color: #5e5e5e
+  font-size: 14px
+  font-weight: 300
+  line-height: 24px
+  text-align: center
+  padding-bottom: 20px
+
+.product-block-material
+  display: flex
+  flex-direction: row
+  justify-content: center
+  padding-bottom: 37px
+
+.product-block-m
+
+.product-block-b
+  padding-left: 48px
+
+.product-material
+  width: 132px
+  height: 10px
+  color: #b9b9b9
+  font-size: 14px
+  font-weight: 700
+  line-height: 24px
+  text-transform: uppercase
+
+.product-material-value
+  text-align: center
+  color: #2f2f2f
+
+.product-price
+  width: 54px
+  height: 24px
+  color: #ef5b70
+  font-size: 24px
+  font-weight: 700
+  line-height: 24px
+  padding-bottom: 43px
+
+.product-block-options
+  display: flex
+  flex-direction: row
+  justify-content: center
+  padding-top: 60px
+  padding-bottom: 25px
+  select, input
+    width: 144px
+    height: 35px
+    border: 1px solid #eaeaea
+    background-color: #ffffff
+    color: #bcbcbc
+    font-family: Lato
+    font-size: 13px
+    font-weight: 400
+    line-height: 24px
+    text-transform: uppercase
+    padding-left: 5px
+
+.product-block-button
+  display: flex
+  flex-direction: row
+  justify-content: center
+  button
+    width: 537px
+    height: 55px
+    border: 1px solid #ef5b70
+    background-color: #ffffff
+
+.product-block-button-text
+  color: #ef5b70
+  font-family: Lato
+  font-size: 16px
+
+/*
+ *  * Страница product
+ *  * Блок на странице product с 3 блоками информации
+
+.product-offer
+  background-color: #222224
+  height: 341px
+
+.product-offer-desc
+  height: 341px
+  background-color: #222224
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.product-offer-block
+  width: 309px
+  padding-top: 89px
+  padding-left: 37px
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+
+.product-offer-desc-img
+  display: block
+  padding-left: 150px
+  align-items: center
+  padding-bottom: 32px
+
+.product-offer-desc-title
+  text-align: center
+  padding-left: 33px
+  color: #fbfbfb
+  font-size: 20px
+  font-weight: 700
+  letter-spacing: 0.5px
+  padding-bottom: 17px
+
+.product-offer-desc-text
+  padding-left: 82px
+  color: #fbfbfb
+  font-size: 14px
+  font-weight: 300
+  letter-spacing: 0.35px
+  width: 309px
+  font-family: Lato
+
+.products-list
+  padding-top: 55px
+
+.products-wrap
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.products-list-category
+  width: 280px
+
+.products-list-value
+  padding-left: 50px
+
+.products-list-value-row
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.products-list-value-block
+  display: flex
+  flex-direction: column
+  width: 270px
+
+.products-list-value-block-name
+  display: block
+  color: #6f6e6e
+  font-family: Lato
+  font-size: 14px
+  font-weight: 700
+  line-height: 20px
+  text-transform: uppercase
+
+.products-list-value-block-content
+  width: 100%
+  display: block
+  color: #6f6e6e
+  font-family: Lato
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  color: #dfdfdf
+  label
+    padding-left: 10px
+    padding-right: 24px
+
+.products-block-filter
+  margin-top: 40px
+  height: 50px
+  background-color: #f3f3f3
+  margin-bottom: 40px
+
+.list-category-key
+  display: block
+  height: 37px
+  margin-bottom: 18px
+  border-left: 5px solid #ef5b70
+  border-bottom: 1px solid #ebebeb
+  a
+    padding-left: 10px
+    color: #6f6e6e
+    font-family: Lato
+    font-size: 14px
+    font-weight: 700
+    line-height: 20px
+    text-transform: uppercase
+    text-decoration: none
+
+.list-category-value
+  padding-left: 10px
+  padding-top: 12px
+  padding-bottom: 30px
+
+.category-value-name a
+  color: #6f6e6e
+  font-family: Lato
+  font-size: 14px
+  font-weight: 400
+  line-height: 33px
+  text-decoration: none
+
+/*
+ *  * Вывод конкретного блока товаров на главной
+
+.product-fetures-items
+  padding-bottom: 40px
+  display: flex
+  flex-wrap: wrap
+  flex-direction: column
+  justify-content: space-between
+  position: relative
+
+.product-feture
+  max-height: 280px
+  width: 250px
+  padding-bottom: 80px
+  a
+    text-decoration: none
+  &:hover
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+    .product-feture-add-to-cart
+      display: block
+    .product-feture-img, .product-feture-img-cart
+      filter: brightness(50%)
+  a:hover
+    background: #222222
+    opacity: 0.5
+
+.product-feture-img
+  height: 250px
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+
+.product-feture-img-cart
+  height: 250px
+  background-size: auto
+  background-repeat: no-repeat
+  background-position: center
+  background-color: #f7f7f7
+
+.product-feture-add-to-cart
+  padding-top: 15px
+  width: 123px
+  height: 39px
+  border: 1px solid #ffffff
+  position: absolute
+  left: 70px
+  top: 94px
+  color: #ffffff
+  font-size: 13px
+  font-weight: 700
+  text-decoration: none
+  text-align: center
+  display: none
+
+.product-feture-text
+  padding-bottom: 15px
+  padding-left: 15px
+
+.product-feture-name
+  display: flex
+  height: 28px
+  padding-top: 19px
+  color: #222222
+  font-size: 14px
+  font-weight: 400
+  text-transform: uppercase
+
+.product-feture-price
+  display: flex
+  color: #f16d7f
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+/*
+ *  * Страница shoppingcart.html
+
+.shopping-products
+  display: flex
+  flex-direction: column
+
+.shopping-products-body
+  padding-bottom: 30px
+  thead
+    color: #222222
+    font-size: 13px
+    font-weight: 700
+    line-height: 20px
+    text-transform: uppercase
+    letter-spacing: -0.2px
+  h3
+    color: #222222
+    font-size: 13px
+    font-weight: 400
+    text-transform: uppercase
+  table
+    padding-top: 90px
+    padding-bottom: 50px
+  td
+    border-bottom: 1px solid #eaeaea
+    padding-bottom: 20px
+    padding-top: 20px
+    color: #656565
+    font-size: 13px
+    font-weight: 400
+    line-height: 20px
+
+.shopping-products-body-cancel
+  color: #c0c0c0
+  font-size: 16px
+  font-weight: 400
+  text-transform: uppercase
+
+.shopping-products-body-td-first
+  color: #6f6e6e
+  font-size: 13px
+  font-weight: 300
+  line-height: 20px
+
+.shopping-products-body-td-img
+  height: 115px
+  width: 100px
+  float: left
+
+.shopping-products-body-td-info
+  float: left
+  padding-left: 20px
+
+.shopping-products-body-input
+  color: #656565
+  font-size: 13px
+  font-weight: 400
+  line-height: 20px
+  text-align: center
+  height: 30px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+
+.shopping-products-body-button-white
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  padding: 20px 40px 20px 40px
+  color: #4a4a4a
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+
+.shopping-products-footer
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  padding-top: 50px
+  padding-bottom: 50px
+
+.shopping-products-footer-block
+  width: 360px
+
+.shopping-products-footer
+  h3
+    color: #222222
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+    padding-bottom: 20px
+  span
+    color: #000000
+    font-size: 14px
+    font-weight: 300
+    padding-bottom: 24px
+    display: block
+
+.shopping-products-footer-button
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #4a4a4a
+  font-size: 11px
+  font-weight: 700
+  text-transform: uppercase
+  padding: 10px 20px 10px 20px
+
+.shopping-products-footer-button-pink
+  background-color: #f16d7f
+  padding: 20px 40px 20px 40px
+  color: #ffffff
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+  margin-right: 44px
+  float: right
+
+.shopping-products-footer h5
+  color: #4a4a4a
+  font-size: 11px
+  font-weight: 400
+  text-transform: uppercase
+  padding-top: 40px
+  padding-right: 60px
+  float: right
+
+.shopping-products-footer-block select
+  width: 300px
+  height: 45px
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  color: #b1b1b1
+  font-size: 13px
+  font-weight: 300
+  padding-left: 18px
+  padding-right: 18px
+  margin-bottom: 20px
+
+.shopping-products-footer
+  input
+    width: 300px
+    height: 45px
+    border: 1px solid #eaeaea
+    background-color: #ffffff
+    color: #b1b1b1
+    font-size: 13px
+    font-weight: 300
+    padding-left: 18px
+    padding-right: 18px
+    margin-bottom: 20px
+  h4
+    width: 165px
+    height: 16px
+    color: #222222
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+    padding-top: 20px
+    padding-bottom: 40px
+    float: right
