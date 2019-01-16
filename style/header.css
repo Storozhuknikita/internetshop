@@ -39,7 +39,7 @@
     color: #ffffff;
     font-size: 12px;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 19px;
     display: block;
     text-align: center;
 }
@@ -276,9 +276,10 @@
 }
 
 
-.header-right-block:hover .drop-cart {
+.header-right:hover .drop-cart {
     display: block;
     z-index: 2;
+    left: 1044px;
 }
 
 .drop-cart {
@@ -305,48 +306,58 @@
 
 .drop-cart-flex {
     width: 265px;
-    display: flex;
-    flex-wrap: wrap;
-
 }
 
 
 .cart-block {
-    display: flex;
     width: 265px;
+    height: 105px;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 10px;
 }
 
 .cart-block-img {
-
+    float: left;
+    height: 85px;
+    width: 72px;
 }
 
-.cart-block-title {
-    color: #222222;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.cart-block-star {
+.cart-block-text {
+    padding-left: 90px;
     color: #e4af48;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-.cart-block-cancel {
-    color: #c0c0c0;
-    font-size: 16px;
-    font-weight: 400;
+.cart-block-text h3 {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 700;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
-.cart-block-price {
+.cart-block-text p {
     color: #f16d7f;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 
+.cart-block-cancel {
+    float: right;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #c0c0c0;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .cart-block-hr {
@@ -365,26 +376,25 @@
 }
 
 .cart-block-checkout {
-    margin-top: 30px;
-    width: 262px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: #ffffff;
+    margin-top: 20px;
+    display: block;
+    border: 1px solid #f16d7f;
     color: #f16d7f;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
 }
 
 .cart-block-go {
-    margin-top: 10px;
-    width: 262px;
-    height: 50px;
+    margin-top: 20px;
+    display: block;
     border: 1px solid #eaeaea;
-    background-color: #ffffff;
     color: #4a4a4a;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-
+    padding: 20px 40px 20px 40px;
+    text-align: center;
 }
