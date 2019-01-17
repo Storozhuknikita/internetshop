@@ -122,7 +122,7 @@ ul {
   height: auto;
 }
 
-.category-title {
+.category-title a {
   color: #222222;
   font-size: 18px;
   font-weight: 600;
@@ -801,13 +801,13 @@ ul {
 
 .products-list-value-block-content {
   width: 100%;
-  display: block;
-  color: #6f6e6e;
-  font-family: Lato;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
   color: #dfdfdf;
+}
+.products-list-value-block-content a {
+  color: #6f6e6e;
 }
 .products-list-value-block-content label {
   padding-left: 10px;
@@ -859,9 +859,9 @@ ul {
   padding-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: space-between;
   position: relative;
+  width: 807px;
 }
 
 .product-feture {

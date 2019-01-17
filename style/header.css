@@ -51,6 +51,12 @@
   display: flex;
   align-items: center;
   text-decoration: none;
+  color: #222222;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.68px;
 }
 
 .img-logo {
@@ -236,7 +242,7 @@
 
 /* *  Выпадающее меню для Корзины */
 /* *  * Кнопка My Account - переделать на CLICK на JS */
-.header-right:hover .drop-cart {
+.header-right-cart:hover .drop-cart {
   display: block;
   z-index: 2;
   left: 1044px;
@@ -303,7 +309,7 @@
   padding-top: 10px;
 }
 
-.cart-block-cancel {
+.cart-block-cancel a {
   float: right;
   height: inherit;
   display: flex;

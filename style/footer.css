@@ -83,16 +83,12 @@
 .subscribe-block input {
   border-radius: 23px 0 0 23px;
   background-color: #e1e1e1;
-  color: #ffffff;
+  color: #222224;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.38px;
   padding: 10px 15px;
   text-decoration: none;
-}
-.subscribe-block button {
-  border-radius: 0 23px 23px 0;
-  background-color: #f16d7f;
 }
 
 .subscribe-text-title {

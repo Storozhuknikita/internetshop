@@ -21,7 +21,7 @@
                         <img src="img/logo.png" alt="logo" class="img-logo">BRAN<span class="pink">D</span>
                     </a>
 
-                    <form action="#" class="header-form">
+                    <form action="" class="header-form">
                         <div class="header-form-button">
                             <div class="header-form-button-text">
                                 Browse <i class="fas fa-caret-down"></i>
@@ -29,50 +29,51 @@
                                     <div class="drop-browse-flex">
                                         <h3 class="drop-h3">WOMEN</h3>
                                         <ul class="drop-menu">
-                                            <li><a href="#" class="drop-link">Dresses</a></li>
-                                            <li><a href="#" class="drop-link">Tops</a></li>
-                                            <li><a href="#" class="drop-link">Sweaters/Knits</a></li>
-                                            <li><a href="#" class="drop-link">Jackets/Coats</a></li>
-                                            <li><a href="#" class="drop-link">Blazers</a></li>
-                                            <li><a href="#" class="drop-link">Denim</a></li>
-                                            <li><a href="#" class="drop-link">Leggings/Pants</a></li>
-                                            <li><a href="#" class="drop-link">Skirts/Shorts</a></li>
-                                            <li><a href="#" class="drop-link">Accessories</a></li>
+                                            <li><a href="page.html" class="drop-link">Dresses</a></li>
+                                            <li><a href="page.html" class="drop-link">Tops</a></li>
+                                            <li><a href="page.html" class="drop-link">Sweaters/Knits</a></li>
+                                            <li><a href="page.html" class="drop-link">Jackets/Coats</a></li>
+                                            <li><a href="page.html" class="drop-link">Blazers</a></li>
+                                            <li><a href="page.html" class="drop-link">Denim</a></li>
+                                            <li><a href="page.html" class="drop-link">Leggings/Pants</a></li>
+                                            <li><a href="page.html" class="drop-link">Skirts/Shorts</a></li>
+                                            <li><a href="page.html" class="drop-link">Accessories</a></li>
                                         </ul>
                                         <h3 class="drop-h3">MEN</h3>
                                         <ul class="drop-menu">
-                                            <li><a href="#" class="drop-link">Tees/Tank tops</a></li>
-                                            <li><a href="#" class="drop-link">Shirts/Polos</a></li>
-                                            <li><a href="#" class="drop-link">Sweaters</a></li>
-                                            <li><a href="#" class="drop-link">Sweatshirts/Hoodies</a></li>
-                                            <li><a href="#" class="drop-link">Blazers</a></li>
-                                            <li><a href="#" class="drop-link">Jackets/vests</a></li>
+                                            <li><a href="page.html" class="drop-link">Tees/Tank tops</a></li>
+                                            <li><a href="page.html" class="drop-link">Shirts/Polos</a></li>
+                                            <li><a href="page.html" class="drop-link">Sweaters</a></li>
+                                            <li><a href="page.html" class="drop-link">Sweatshirts/Hoodies</a></li>
+                                            <li><a href="page.html" class="drop-link">Blazers</a></li>
+                                            <li><a href="page.html" class="drop-link">Jackets/vests</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <input type="text" class="header-form-input" autocomplete="off">
+                        <input type="text" class="header-form-input" autocomplete="off" placeholder="Search for Item...">
                         <button class="header-form-search"><i class="fas fa-search"></i></button>
                     </form>
 
                 </div>
 
                 <div class="header-right">
-                    <a href="#"><img src="img/cart.svg" alt="cart"></a>
-                    <div class="header-right-cart-circle">
-                        <span class="header-right-cart-circle-text">5</span>
-                    </div>
-                    <div class="header-right-block">
-                        <a href="#" class="header-right-button">My Account <i class="fas fa-caret-down"></i></a>
+
+                    <div class="header-right-cart">
+                        <a href="#"><img src="img/cart.svg" alt="cart"></a>
+                        <div class="header-right-cart-circle">
+                            <span class="header-right-cart-circle-text">5</span>
+                        </div>
+                        <!-- Выпадающий блок корзины -->
                         <div class="drop-cart">
                             <div class="drop-cart-flex">
 
                                 <div class="cart-block">
                                     <div class="cart-block-img" style="background-image: url('img/card-block-img-1.png');"></div>
                                     <div class="cart-block-text">
-                                        <h3>Rebox Zane</h3>
+                                        <a href="page.html"><h3>Rebox Zane</h3></a>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -90,7 +91,7 @@
                                 <div class="cart-block">
                                     <div class="cart-block-img" style="background-image: url('img/card-block-img-2.png');"></div>
                                     <div class="cart-block-text">
-                                        <h3>Rebox Zane</h3><br/>
+                                        <a href="page.html"><h3>Rebox Zane</h3></a>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -100,7 +101,7 @@
                                             1 X 250$
                                         </p>
                                         <div class="cart-block-cancel">
-                                            <a href="#" class="action"><i class="far fa-times-circle"></i></a>
+                                            <a href="checkout.html" class="action"><i class="far fa-times-circle"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -112,8 +113,14 @@
 
                             </div>
                         </div>
+
+                    </div>
+
+                    <div class="header-right-block">
+                        <a href="#" class="header-right-button">My Account <i class="fas fa-caret-down"></i></a>
                     </div>
                 </div>
+
             </section>
         </header>
 
@@ -273,8 +280,8 @@
                     <span class="breadcrumb-title">NEW ARRIVALS</span>
                     <span class="breadcrumb-nav">
                         <a href="index.html" class="breadcrumb-nav-back">HOME</a> /
-                        <a href="page.html" class="breadcrumb-nav-back">MEN</a> /
-                        <a href="product.html" class="breadcrumb-nav-this">NEW ARRIVALS</a>
+                        <a href="product.html" class="breadcrumb-nav-back">MEN</a> /
+                        <a href="page.html" class="breadcrumb-nav-this">NEW ARRIVALS</a>
                     </span>
                 </div>
             </div>
@@ -324,8 +331,8 @@
                             <div class="products-list-value-block">
                                 <div class="products-list-value-block-name">Trending Now</div>
                                 <div class="products-list-value-block-content">
-                                    Bohemian    |    Floral    |    Lace<br/>
-                                    Floral    |    Lace    |    Bohemian
+                                    <a href="">Bohemian</a>    |    <a href="">Floral</a>    |    <a href="">Lace</a><br/>
+                                    <a href="">Floral</a>    |    <a href="">Lace</a>    |    <a href="">Bohemian</a>
                                 </div>
                             </div>
 
