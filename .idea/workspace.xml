@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6177fbf8-69df-47e3-90b4-f5633b9c078d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/page.html" afterPath="$PROJECT_DIR$/page.html" />
       <change beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
-      <change beforePath="$PROJECT_DIR$/shoppingcart.html" afterPath="$PROJECT_DIR$/shoppingcart.html" />
-      <change beforePath="$PROJECT_DIR$/style/footer.css" afterPath="$PROJECT_DIR$/style/footer.css" />
-      <change beforePath="$PROJECT_DIR$/style/footer.css.map" afterPath="$PROJECT_DIR$/style/footer.css.map" />
-      <change beforePath="$PROJECT_DIR$/style/footer.sass" afterPath="$PROJECT_DIR$/style/footer.sass" />
-      <change beforePath="$PROJECT_DIR$/style/header.css" afterPath="$PROJECT_DIR$/style/header.css" />
-      <change beforePath="$PROJECT_DIR$/style/header.css.map" afterPath="$PROJECT_DIR$/style/header.css.map" />
-      <change beforePath="$PROJECT_DIR$/style/header.sass" afterPath="$PROJECT_DIR$/style/header.sass" />
       <change beforePath="$PROJECT_DIR$/style/main.css" afterPath="$PROJECT_DIR$/style/main.css" />
-      <change beforePath="$PROJECT_DIR$/style/main.css.map" afterPath="$PROJECT_DIR$/style/main.css.map" />
       <change beforePath="$PROJECT_DIR$/style/main.sass" afterPath="$PROJECT_DIR$/style/main.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +21,8 @@
           <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/product.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-356">
-                  <caret line="334" column="117" lean-forward="false" selection-start-line="334" selection-start-column="117" selection-end-line="334" selection-end-column="117" />
+                <state relative-caret-position="499">
+                  <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -56,8 +45,8 @@
           <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/main.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="773" column="15" lean-forward="true" selection-start-line="773" selection-start-column="15" selection-end-line="773" selection-end-column="15" />
+                <state relative-caret-position="105">
+                  <caret line="783" column="20" lean-forward="false" selection-start-line="783" selection-start-column="20" selection-end-line="783" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -69,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footer</find>
       <find>menu-li</find>
       <find>checkout-title-fi</find>
       <find>button</find>
@@ -99,6 +87,7 @@
       <find>quan</find>
       <find>cart-block-can</find>
       <find>mango</find>
+      <find>product-fetures-items</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,6 +179,11 @@
             <path>
               <item name="course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="course1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="exp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course1" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="style" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -260,15 +254,16 @@
       <workItem from="1547391769536" duration="4823000" />
       <workItem from="1547483321801" duration="7798000" />
       <workItem from="1547624284472" duration="18936000" />
-      <workItem from="1547738246824" duration="3274000" />
+      <workItem from="1547738246824" duration="4583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99962000" />
+    <option name="totallyTimeSpent" value="101271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16380544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -279,7 +274,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.46566522" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.4599428" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18656716" sideWeight="0.4599428" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -493,17 +488,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp/sass.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exp/_mixin.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -656,10 +645,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/exp/sass.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="334" column="117" lean-forward="false" selection-start-line="334" selection-start-column="117" selection-end-line="334" selection-end-column="117" />
+        <state relative-caret-position="499">
+          <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#section#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -676,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="773" column="15" lean-forward="true" selection-start-line="773" selection-start-column="15" selection-end-line="773" selection-end-column="15" />
+        <state relative-caret-position="105">
+          <caret line="783" column="20" lean-forward="false" selection-start-line="783" selection-start-column="20" selection-end-line="783" selection-end-column="20" />
           <folding />
         </state>
       </provider>
