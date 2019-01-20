@@ -192,6 +192,25 @@
   margin-right: 0;
 }
 
+.drop-img {
+  width: 255px;
+  height: 118px;
+  position: relative;
+}
+.drop-img-title {
+  position: absolute;
+  width: 71px;
+  height: 45px;
+  top: 61px;
+  left: 174px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+}
+
 .drop-h3 {
   color: #232323;
   font-size: 14px;

@@ -388,6 +388,7 @@ ul {
 .breadcrumb-nav-this {
   font-weight: 700;
   text-decoration: none;
+  color: #f16d7f;
 }
 
 .checkout-num {
@@ -983,6 +984,50 @@ ul {
   text-transform: uppercase;
 }
 
+.block-navigation {
+  padding-bottom: 100px;
+}
+
+.block-navigation-number {
+  float: left;
+  width: 261px;
+  height: 44px;
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+  line-height: 3;
+  padding-left: 15px;
+}
+.block-navigation-number-inactive a {
+  color: #aaaaaa;
+  font-size: -20px;
+  font-weight: bold;
+  line-height: -26.15px;
+}
+.block-navigation-number-active a {
+  color: #ef5b70;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.block-navigation-button {
+  float: right;
+  width: 150px;
+  height: 44px;
+  border-radius: 3px;
+  border: 1px solid #ef5b70;
+  background-color: #ffffff;
+}
+.block-navigation-button a {
+  color: #ef5b70;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 3;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
 /* *  * Страница shoppingcart.html */
 .shopping-products {
   display: flex;
@@ -1009,6 +1054,7 @@ ul {
 .shopping-products-body table {
   padding-top: 90px;
   padding-bottom: 50px;
+  width: 1140px;
 }
 .shopping-products-body td {
   border-bottom: 1px solid #eaeaea;
@@ -1016,7 +1062,6 @@ ul {
   padding-top: 20px;
   color: #656565;
   font-size: 13px;
-  font-weight: 400;
   line-height: 20px;
 }
 
@@ -1054,6 +1099,7 @@ ul {
   height: 30px;
   border: 1px solid #eaeaea;
   background-color: #ffffff;
+  width: 40px;
 }
 
 .shopping-products-body-button-white {
