@@ -787,7 +787,12 @@ ul
     text-decoration: none
   &:hover
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16)
+    transform: scale(1.05)
     .product-feture-add-to-cart
+      display: block
+    .product-feture-add-to-cart-share
+      display: block
+    .product-feture-add-to-cart-love
       display: block
     .product-feture-img, .product-feture-img-cart
       filter: brightness(50%)
@@ -810,12 +815,45 @@ ul
 
 .product-feture-add-to-cart
   padding-top: 15px
-  width: 123px
-  height: 39px
+  width: 120px
+  height: 38px
   border: 1px solid #ffffff
+  border-radius: 3px
   position: absolute
   left: 70px
   top: 94px
+  color: #ffffff
+  font-size: 13px
+  font-weight: 700
+  text-decoration: none
+  text-align: center
+  display: none
+
+.product-feture-add-to-cart-share
+  padding-top: 15px
+  width: 60px
+  height: 38px
+  border: 1px solid #ffffff
+  border-radius: 3px
+  position: absolute
+  left: 70px
+  top: 150px
+  color: #ffffff
+  font-size: 13px
+  font-weight: 700
+  text-decoration: none
+  text-align: center
+  display: none
+
+.product-feture-add-to-cart-love
+  padding-top: 15px
+  width: 60px
+  height: 38px
+  border: 1px solid #ffffff
+  border-radius: 3px
+  position: absolute
+  left: 130px
+  top: 150px
   color: #ffffff
   font-size: 13px
   font-weight: 700
