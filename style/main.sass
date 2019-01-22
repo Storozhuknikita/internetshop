@@ -2,6 +2,9 @@
  *  * Основа основ
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700')
 
+$container-width: 1140px
+$colorpink: #f16d7f
+
 *
   margin: 0
   padding: 0
@@ -16,7 +19,7 @@ ul
   list-style-type: none
 
 .container
-  width: 1140px
+  width: $container-width
   margin: 0 auto
 
 /*
@@ -34,7 +37,7 @@ ul
 .promo-text
   margin-top: 224px
   float: left
-  border-left: 12px solid #f16d7f
+  border-left: 12px solid $colorpink
   padding-left: 19px
 
 .promo-h2
@@ -54,7 +57,7 @@ ul
   line-height: 33px
 
 .pink
-  color: #f16d7f
+  color: $colorpink
 
 /*
  *  * Спец категории на главной
@@ -115,7 +118,7 @@ ul
   text-transform: uppercase
 
 .category-title-pink
-  color: #f16d7f
+  color: $colorpink
   font-size: 30px
   letter-spacing: 0.75px
 
@@ -230,7 +233,7 @@ ul
 
 .feture-price
   display: flex
-  color: #f16d7f
+  color: $colorpink
   font-size: 16px
   font-weight: 700
   text-transform: uppercase
@@ -323,7 +326,7 @@ ul
 .breadcrumb-title
   width: 176px
   height: 18px
-  color: #f16d7f
+  color: $colorpink
   font-size: 22px
   font-weight: bold
   line-height: 20px
@@ -331,7 +334,7 @@ ul
 
 .breadcrumb-nav
   height: 11px
-  color: #f16d7f
+  color: $colorpink
   font-size: 14px
   font-weight: 700
   line-height: 20px
@@ -346,9 +349,7 @@ ul
 .breadcrumb-nav-this
   font-weight: 700
   text-decoration: none
-  color: #f16d7f
-
-.checkout
+  color: $colorpink
 
 .checkout-num
   padding-top: 39px
@@ -440,6 +441,13 @@ ul
   border: 1px solid #eaeaea
   background-color: #ffffff
   margin-top: 23px
+  &:hover
+    background-color: $colorpink
+    transition: all 1s
+
+.checkout-blocks input
+  padding-left: 16px
+  padding-right: 16px
 
 /*
  *  * Стилизация радио кнопок
@@ -524,7 +532,6 @@ ul
   width: 8px
   height: 14px
   color: #ffffff
-  font-family: "Font Awesome"
   font-size: 24px
   font-weight: 400
   line-height: 24px
@@ -544,7 +551,7 @@ ul
   border-bottom: 1px solid #eaeaea
 
 .product-title
-  color: #f16d7f
+  color: $colorpink
   font-size: 14px
   font-weight: 700
   line-height: 24px
@@ -554,7 +561,7 @@ ul
 .product-hr
   width: 63px
   height: 3px
-  background-color: #ef5b70
+  background-color: $colorpink
   margin-bottom: 15px
 
 .product-brand
@@ -579,8 +586,6 @@ ul
   flex-direction: row
   justify-content: center
   padding-bottom: 37px
-
-.product-block-m
 
 .product-block-b
   padding-left: 48px
@@ -619,7 +624,6 @@ ul
     border: 1px solid #eaeaea
     background-color: #ffffff
     color: #bcbcbc
-    font-family: Lato
     font-size: 13px
     font-weight: 400
     line-height: 24px
@@ -635,10 +639,12 @@ ul
     height: 55px
     border: 1px solid #ef5b70
     background-color: #ffffff
+    &:hover
+      transition: all 1s
+      background-color: black
 
 .product-block-button-text
   color: #ef5b70
-  font-family: Lato
   font-size: 16px
 
 /*
@@ -686,7 +692,6 @@ ul
   font-weight: 300
   letter-spacing: 0.35px
   width: 309px
-  font-family: Lato
 
 .products-list
   padding-top: 55px
@@ -715,7 +720,6 @@ ul
 .products-list-value-block-name
   display: block
   color: #6f6e6e
-  font-family: Lato
   font-size: 14px
   font-weight: 700
   line-height: 20px
@@ -762,7 +766,6 @@ ul
 
 .category-value-name a
   color: #6f6e6e
-  font-family: Lato
   font-size: 14px
   font-weight: 400
   line-height: 33px
@@ -877,7 +880,7 @@ ul
 
 .product-feture-price
   display: flex
-  color: #f16d7f
+  color: $colorpink
   font-size: 16px
   font-weight: 700
   text-transform: uppercase
@@ -1029,9 +1032,12 @@ ul
   font-weight: 700
   text-transform: uppercase
   padding: 10px 20px 10px 20px
+  &:hover
+    background-color: $colorpink
+    transition: all 1s
 
 .shopping-products-footer-button-pink
-  background-color: #f16d7f
+  background-color: $colorpink
   padding: 20px 40px 20px 40px
   color: #ffffff
   font-size: 16px
@@ -1039,6 +1045,9 @@ ul
   text-transform: uppercase
   margin-right: 44px
   float: right
+  &:hover
+    background-color: #4a4a4a
+    transition: all 1s
 
 .shopping-products-footer h5
   color: #4a4a4a

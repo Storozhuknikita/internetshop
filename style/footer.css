@@ -148,6 +148,7 @@
 }
 .block-links-1 a:hover {
   color: #f16d7f;
+  transition: 0.5s;
 }
 
 .block-text {

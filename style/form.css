@@ -27,5 +27,9 @@ input:-webkit-autofill {
   padding: 10px 15px;
   text-decoration: none;
 }
+.button:hover {
+  background-color: black;
+  transition: all 0.5s;
+}
 
 /*# sourceMappingURL=form.css.map */

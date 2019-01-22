@@ -366,6 +366,10 @@
   padding: 20px 40px 20px 40px;
   text-align: center;
 }
+.cart-block-checkout:hover {
+  background-color: black;
+  transition: all 0.5s;
+}
 
 .cart-block-go {
   margin-top: 20px;

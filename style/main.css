@@ -489,6 +489,15 @@ ul {
   background-color: #ffffff;
   margin-top: 23px;
 }
+.checkout-blocks button:hover {
+  background-color: #f16d7f;
+  transition: all 1s;
+}
+
+.checkout-blocks input {
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 /* *  * Стилизация радио кнопок */
 .radio input {
@@ -578,7 +587,6 @@ ul {
   width: 8px;
   height: 14px;
   color: #ffffff;
-  font-family: "Font Awesome";
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -612,7 +620,7 @@ ul {
 .product-hr {
   width: 63px;
   height: 3px;
-  background-color: #ef5b70;
+  background-color: #f16d7f;
   margin-bottom: 15px;
 }
 
@@ -684,7 +692,6 @@ ul {
   border: 1px solid #eaeaea;
   background-color: #ffffff;
   color: #bcbcbc;
-  font-family: Lato;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -703,10 +710,13 @@ ul {
   border: 1px solid #ef5b70;
   background-color: #ffffff;
 }
+.product-block-button button:hover {
+  transition: all 1s;
+  background-color: black;
+}
 
 .product-block-button-text {
   color: #ef5b70;
-  font-family: Lato;
   font-size: 16px;
 }
 
@@ -758,7 +768,6 @@ ul {
   font-weight: 300;
   letter-spacing: 0.35px;
   width: 309px;
-  font-family: Lato;
 }
 
 .products-list {
@@ -794,7 +803,6 @@ ul {
 .products-list-value-block-name {
   display: block;
   color: #6f6e6e;
-  font-family: Lato;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
@@ -849,7 +857,6 @@ ul {
 
 .category-value-name a {
   color: #6f6e6e;
-  font-family: Lato;
   font-size: 14px;
   font-weight: 400;
   line-height: 33px;
@@ -1148,6 +1155,10 @@ ul {
   text-transform: uppercase;
   padding: 10px 20px 10px 20px;
 }
+.shopping-products-footer-button:hover {
+  background-color: #f16d7f;
+  transition: all 1s;
+}
 
 .shopping-products-footer-button-pink {
   background-color: #f16d7f;
@@ -1158,6 +1169,10 @@ ul {
   text-transform: uppercase;
   margin-right: 44px;
   float: right;
+}
+.shopping-products-footer-button-pink:hover {
+  background-color: #4a4a4a;
+  transition: all 1s;
 }
 
 .shopping-products-footer h5 {
