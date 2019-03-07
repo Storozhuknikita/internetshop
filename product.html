@@ -59,66 +59,31 @@
 
                 </div>
 
+
                 <div class="header-right">
 
                     <div class="header-right-cart">
                         <a href="#"><img src="img/cart.svg" alt="cart"></a>
                         <div class="header-right-cart-circle">
-                            <span class="header-right-cart-circle-text">5</span>
+                            <span class="header-right-cart-circle-text"></span>
                         </div>
+
                         <!-- Выпадающий блок корзины -->
                         <div class="drop-cart">
-                            <div class="drop-cart-flex">
+                            <div class="drop-cart-flex" id="basket"></div>
 
-                                <div class="cart-block">
-                                    <div class="cart-block-img" style="background-image: url('img/card-block-img-1.png');"></div>
-                                    <div class="cart-block-text">
-                                        <a href="page.html"><h3>Rebox Zane</h3></a>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <p>
-                                            1 X 250$
-                                        </p>
-                                        <div class="cart-block-cancel">
-                                            <a href="#" class="action"><i class="far fa-times-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="cart-block">
-                                    <div class="cart-block-img" style="background-image: url('img/card-block-img-2.png');"></div>
-                                    <div class="cart-block-text">
-                                        <a href="page.html"><h3>Rebox Zane</h3></a>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <p>
-                                            1 X 250$
-                                        </p>
-                                        <div class="cart-block-cancel">
-                                            <a href="checkout.html" class="action"><i class="far fa-times-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="cart-block-total">Total: 500$</div>
-
-                                <a href="checkout.html" class="cart-block-checkout">CHECKOUT</a>
-                                <a href="shoppingcart.html" class="cart-block-go">GO TO CART</a>
-
-                            </div>
+                            <div class="cart-block-total" id="cart-block-total" style="display: none;"></div>
+                            <a href="checkout.html" class="cart-block-checkout" id="cart-block-checkout">CHECKOUT</a>
+                            <a href="shoppingcart.html" class="cart-block-go" id="cart-block-go">GO TO CART</a>
                         </div>
+                        <!-- Выпадающий блок корзины -->
 
                     </div>
 
                     <div class="header-right-block">
                         <a href="#" class="header-right-button">My Account <i class="fas fa-caret-down"></i></a>
                     </div>
+
                 </div>
 
             </section>
@@ -366,13 +331,26 @@
                             Sort by Name | Show 09
                         </div>
 
-                        <div class="product-fetures-items">
+                        <div class="product-fetures-items" id="product-fetures-items">
 
-                            <div class="product-feture">
+                            <div class="product-feture" id="1">
                                 <a href="#">
                                     <div class="product-feture-img" style="background-image: url('img/f1.jpg');"></div>
                                     <div class="product-feture-text">
                                         <div class="product-feture-name">Mango  People  T-shirt</div>
+                                        <div class="product-feture-price">$52,00</div>
+                                    </div>
+                                </a>
+                                <a class="product-feture-add-to-cart"><img src="img/icon-bucket.png"> Add to cart</a>
+                                <a href="#" class="product-feture-add-to-cart-share"><img src="img/icon-share.png"></a>
+                                <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
+                            </div>
+
+                            <div class="product-feture" id="2">
+                                <a href="#">
+                                    <div class="product-feture-img" style="background-image: url('img/f1.jpg');"></div>
+                                    <div class="product-feture-text">
+                                        <div class="product-feture-name">Mango  People  T-shirt 1</div>
                                         <div class="product-feture-price">$52.00</div>
                                     </div>
                                 </a>
@@ -381,24 +359,11 @@
                                 <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
                             </div>
 
-                            <div class="product-feture">
-                                <a href="#">
-                                    <div class="product-feture-img" style="background-image: url('img/f1.jpg');"></div>
-                                    <div class="product-feture-text">
-                                        <div class="product-feture-name">Mango  People  T-shirt</div>
-                                        <div class="product-feture-price">$52.00</div>
-                                    </div>
-                                </a>
-                                <a href="#" class="product-feture-add-to-cart"><img src="img/icon-bucket.png" alt="cart"> Add to cart</a>
-                                <a href="#" class="product-feture-add-to-cart-share"><img src="img/icon-share.png"></a>
-                                <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
-                            </div>
-
-                            <div class="product-feture">
+                            <div class="product-feture" id="3">
                                 <a href="#">
                                     <div class="product-feture-img" style="background-image: url('img/f2.jpg');"></div>
                                     <div class="product-feture-text">
-                                        <div class="product-feture-name">Mango  People  T-shirt</div>
+                                        <div class="product-feture-name">Mango  People  T-shirt 2</div>
                                         <div class="product-feture-price">$52.00</div>
                                     </div>
                                 </a>
@@ -407,11 +372,11 @@
                                 <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
                             </div>
 
-                            <div class="product-feture">
+                            <div class="product-feture" id="4">
                                 <a href="#">
                                     <div class="product-feture-img" style="background-image: url('img/f3.jpg');"></div>
                                     <div class="product-feture-text">
-                                        <div class="product-feture-name">Mango  People  T-shirt</div>
+                                        <div class="product-feture-name">Mango  People  T-shirt 3</div>
                                         <div class="product-feture-price">$52.00</div>
                                     </div>
                                 </a>
@@ -420,11 +385,11 @@
                                 <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
                             </div>
 
-                            <div class="product-feture">
+                            <div class="product-feture" id="5">
                                 <a href="#">
                                     <div class="product-feture-img" style="background-image: url('img/f4.jpg');"></div>
                                     <div class="product-feture-text">
-                                        <div class="product-feture-name">Mango  People  T-shirt</div>
+                                        <div class="product-feture-name">Mango  People  T-shirt 4</div>
                                         <div class="product-feture-price">$52.00</div>
                                     </div>
                                 </a>
@@ -433,11 +398,11 @@
                                 <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
                             </div>
 
-                            <div class="product-feture">
+                            <div class="product-feture" id="6">
                                 <a href="#">
                                     <div class="product-feture-img" style="background-image: url('img/f5.jpg');"></div>
                                     <div class="product-feture-text">
-                                        <div class="product-feture-name">Mango  People  T-shirt</div>
+                                        <div class="product-feture-name">Mango  People  T-shirt 5</div>
                                         <div class="product-feture-price">$52.00</div>
                                     </div>
                                 </a>
@@ -446,11 +411,11 @@
                                 <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
                             </div>
 
-                            <div class="product-feture">
+                            <div class="product-feture" id="7">
                                 <a href="#">
                                     <div class="product-feture-img" style="background-image: url('img/f6.jpg');"></div>
                                     <div class="product-feture-text">
-                                        <div class="product-feture-name">Mango  People  T-shirt</div>
+                                        <div class="product-feture-name">Mango  People  T-shirt 6</div>
                                         <div class="product-feture-price">$52.00</div>
                                     </div>
                                 </a>
@@ -459,11 +424,11 @@
                                 <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
                             </div>
 
-                            <div class="product-feture">
+                            <div class="product-feture" id="8">
                                 <a href="#">
                                     <div class="product-feture-img" style="background-image: url('img/f7.jpg');"></div>
                                     <div class="product-feture-text">
-                                        <div class="product-feture-name">Mango  People  T-shirt</div>
+                                        <div class="product-feture-name">Mango  People  T-shirt 7</div>
                                         <div class="product-feture-price">$52.00</div>
                                     </div>
                                 </a>
@@ -472,11 +437,11 @@
                                 <a href="#" class="product-feture-add-to-cart-love"><img src="img/icon-love.png"></a>
                             </div>
 
-                            <div class="product-feture">
+                            <div class="product-feture" id="9">
                                 <a href="#">
                                     <div class="product-feture-img" style="background-image: url('img/f8.jpg');"></div>
                                     <div class="product-feture-text">
-                                        <div class="product-feture-name">Mango  People  T-shirt</div>
+                                        <div class="product-feture-name">Mango  People  T-shirt 8</div>
                                         <div class="product-feture-price">$52.00</div>
                                     </div>
                                 </a>
@@ -664,7 +629,7 @@
                         <a href="#">Women</a><br/>
                         <a href="#">Child</a><br/>
                         <a href="#">Apparel</a><br/>
-                        <a href="#">Brows All</a><br/>
+                        <a href="#">Browse All</a><br/>
                     </div>
 
                 </div>
@@ -675,9 +640,9 @@
         <footer>
             <div class="container">
 
-                    <span class="footer-left">
-                        <span class="footer-copyright">© 2017  Brand  All Rights Reserved.</span>
-                    </span>
+                <span class="footer-left">
+                    <span class="footer-copyright">© 2017  Brand  All Rights Reserved.</span>
+                </span>
 
                 <span class="footer-right">
                         <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -685,10 +650,34 @@
                         <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                         <a href="#" class="social"><i class="fab fa-pinterest-p"></i></a>
                         <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    </span>
+                </span>
 
             </div>
         </footer>
 
+
+
+    <!-- шаблон вывода корзины -->
+    <div class="cart-block" id="template-basket-thing" style="display: none;">
+        <div class="cart-block-img"></div>
+        <div class="cart-block-text">
+            <a href="page.html"><h3 class="cart-block-name"></h3></a>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <p class="cart-block-price-count" id="cart-block-price-count">
+
+            </p>
+            <div class="cart-block-cancel">
+                <a href="#" class="action"><i class="far fa-times-circle"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- шаблон вывода корзины -->
+
+
+        <script src="js/product.js"></script>
     </body>
 </html>
