@@ -2,7 +2,7 @@
 // корзина
 var cart = [];
 
-// получение блока корзины
+// получение блока корзины и обработчик
 var $basket = document.getElementById('basket');
 $basket.addEventListener('click', handleRemoveToCartClick);
 
@@ -48,8 +48,10 @@ function getProductIndexForDelete(name){
 // обработка клика по товарам (add to cart)
 function handleAddToCartClick(event){
 
+    // сброс клика
     event.preventDefault();
 
+    // если клик по ссылке
     if(event.target.tagName === 'A') {
         var $product = event.target.parentElement;
         var $id = $product.id;
@@ -70,6 +72,7 @@ function handleAddToCartClick(event){
         cart[idx].quantity++;
     }
 
+    // отрисовка заново
     buildTotal(cart);
     buildBasket(cart);
 }
@@ -77,6 +80,7 @@ function handleAddToCartClick(event){
 // обработка клика кнопке "удалить из корзины"
 function handleRemoveToCartClick(event){
 
+    // сброс
     event.preventDefault();
 
     if(event.target.tagName === 'I') {
@@ -84,10 +88,10 @@ function handleRemoveToCartClick(event){
         var $id = $product.id;
     }
 
+
+    // подготовка формата и удаление
     var recToRemove = {id: $id};
     cart.splice(cart.indexOf(recToRemove), 1);
-
-    // не пойму как мне удалить
 
     buildTotal(cart);
     buildBasket(cart);
@@ -107,6 +111,7 @@ function buildTotal(cart){
 
     if (cart.length === 0) {
         $basketTotal.textContent = 'Корзина пуста';
+
         $cartBlockCheckout.style.display = 'none'; // пустая корзина - кнопок нет
         $cartBlockGo.style.display = 'none'; // пустая корзина - кнопок нет
         $basketTotal.style.display = 'block'; // говорим что пусто
@@ -123,18 +128,15 @@ function buildTotal(cart){
 
 }
 
-
-
 // отрисовка корзины
 function buildBasket(cart){
 
-    // обнуляем
+    // обнуляем для перерисовки
     $basket.innerHTML = '';
 
     for (var i = 0; i < cart.length; i++ ) {
-        // создаем шаблон - клонируем
+        // клонируем шаблон
         var $template = document.querySelector('.cart-block').cloneNode(true);
-        console.log($template);
 
         // добавление изображения
         $template.querySelector('.cart-block-img').style.backgroundImage = cart[i].img;
@@ -150,6 +152,7 @@ function buildBasket(cart){
         // выводим блок
         $template.style.display = 'block';
 
+        // добавляем в конец
         $basket.insertBefore($template, $basket.firstChild);
     }
 
