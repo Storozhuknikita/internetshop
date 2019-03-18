@@ -1,6 +1,10 @@
 
+
+// Я пока что оставил код который писал ранее
+// Добавил функцию отрисовки товаров на JS
+
 // корзина
-var cart = [];
+/*var cart = [];
 
 // получение блока корзины и обработчик
 var $basket = document.getElementById('basket');
@@ -16,11 +20,48 @@ var $cartBlockGo = document.getElementById('cart-block-go');
 // получение отрисованных товаров
 var $products = document.getElementById('product-fetures-items');
 $products.addEventListener('click', handleAddToCartClick);
-
+*/
 
 // отрисовка товаров на js
+// UPDATE 18-19.03.2019
+
+// Товары
+const goods = [
+    { product_id: 1, product_name: 'Mango  People  T-shirt', product_img: 'f1.jpg', product_price: 52 },
+    { product_id: 2, product_name: 'Mango  People  T-shirt', product_img: 'f2.jpg', product_price: 52 },
+    { product_id: 3, product_name: 'Mango  People  T-shirt', product_img: 'f3.jpg', product_price: 52 },
+    { product_id: 4, product_name: 'Mango  People  T-shirt', product_img: 'f4.jpg', product_price: 52 },
+    { product_id: 5, product_name: 'Mango  People  T-shirt', product_img: 'f5.jpg', product_price: 52 },
+    { product_id: 6, product_name: 'Mango  People  T-shirt', product_img: 'f6.jpg', product_price: 52 },
+    { product_id: 7, product_name: 'Mango  People  T-shirt', product_img: 'f7.jpg', product_price: 52 },
+    { product_id: 8, product_name: 'Mango  People  T-shirt', product_img: 'f8.jpg', product_price: 52 },
+    { product_id: 9, product_name: 'Mango  People  T-shirt', product_img: 'f9.jpg', product_price: 52 },
+];
+
+// Подготовка вида
+const renderGoodsItems = (title, price, img, id) => {
+    return `<div class="feture">
+    <a href="page.html/${id}">
+        <div class="feture-img" style="background-image: url('img/${img}');"></div>
+        <div class="feture-text">
+            <div class="feture-name">${title}</div>
+            <div class="feture-price">${price}</div>
+        </div>
+    </a>
+    <a href="#" class="feture-add-to-cart">Add to cart</a>
+</div>`;
+};
+
+// Рендер товара
+const renderGoodsList = (list) => {
+    document.querySelector('.fetures-items').innerHTML = list.map(item => renderGoodsItems(item.product_name, item.product_price, item.product_img, item.product_id));
+};
+
+renderGoodsList(goods);
 
 
+
+/*
 // получение индекса для проверки
 function getProductIndex(name){
 
@@ -158,4 +199,4 @@ function buildBasket(cart){
 
 }
 
-buildTotal(cart);
+buildTotal(cart);*/
