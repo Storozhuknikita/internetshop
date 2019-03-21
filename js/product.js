@@ -1,4 +1,112 @@
 
+// SOLID, KISS, DRY
+// 1. Инкапсуляция (сокрытие реализации)
+// 2. Наследование (
+// 3. Полиморфизм
+// 4. Абстракция
+
+/*
+function Container(id, className, tagName) {
+
+}
+
+Container.prototype.render = function(){
+    return `<${this.tagName} class="${this.className}" id="${this.id}"></${this.tagName}>`;
+};
+
+
+function Menu(id, className, items){
+    Container.call(this, id, className, 'ul');
+
+    this.items = items;
+}
+
+
+Menu.prototype = Object.create(Container.prototype);
+*/
+
+// ES 6
+class Container {
+    constructor(id, className, tagName){
+        this.id = id;
+        this.className = className;
+        this.tagName = tagName;
+    }
+
+    render() {
+        return `<${this.tagName} class="${this.className}" id="${this.id}"></${this.tagName}>`;
+    }
+}
+
+class Menu extends Container {
+    // все идет в PROTO
+    constructor(id, className, items){
+        super(id, className, 'ul'); // указатель на родительский класс
+        this.items = items;
+    }
+
+    render() {
+
+    }
+}
+
+
+class Item {
+    constructor(id, img, title, price){
+        this.id = id;
+        this.img = img;
+        this.title = title;
+        this.price = price;
+    }
+
+    render(){
+        return `<div class="feture">
+    <a href="page.html/${this.id}">
+        <div class="feture-img" style="background-image: url('img/${this.img}');"></div>
+        <div class="feture-text">
+            <div class="feture-name">${this.title}</div>
+            <div class="feture-price">${this.price}</div>
+        </div>
+    </a>
+    <a href="#" class="feture-add-to-cart">Add to cart</a>
+</div>`;
+    }
+}
+
+class ItemList {
+    constructor(){
+        this.items = [];
+    }
+
+    fetchItems() {
+        this.items = [
+            { product_id: 1, product_name: 'Mango  People  T-shirt', product_img: 'f1.jpg', product_price: 52 },
+            { product_id: 2, product_name: 'Mango  People  T-shirt', product_img: 'f2.jpg', product_price: 52 },
+            { product_id: 3, product_name: 'Mango  People  T-shirt', product_img: 'f3.jpg', product_price: 52 },
+            { product_id: 4, product_name: 'Mango  People  T-shirt', product_img: 'f4.jpg', product_price: 52 },
+            { product_id: 5, product_name: 'Mango  People  T-shirt', product_img: 'f5.jpg', product_price: 52 },
+            { product_id: 6, product_name: 'Mango  People  T-shirt', product_img: 'f6.jpg', product_price: 52 },
+            { product_id: 7, product_name: 'Mango  People  T-shirt', product_img: 'f7.jpg', product_price: 52 },
+            { product_id: 8, product_name: 'Mango  People  T-shirt', product_img: 'f8.jpg', product_price: 52 },
+            { product_id: 9, product_name: 'Mango  People  T-shirt', product_img: 'f9.jpg', product_price: 52 },
+        ];
+
+        this.items = this.items.map(item => new Item(item.product_id, item.product_img, item.product_name, item.product_price));
+    }
+
+    render(){
+        const itemsHtml = this.items.map(item => item.render());
+        return itemsHtml.join('');
+    }
+}
+
+const items = new ItemList();
+items.fetchItems();
+
+document.querySelector('.fetures-items').innerHTML = items.render();
+
+
+
 
 // Я пока что оставил код который писал ранее
 // Добавил функцию отрисовки товаров на JS
@@ -26,7 +134,7 @@ $products.addEventListener('click', handleAddToCartClick);
 // UPDATE 18-19.03.2019
 
 // Товары
-const goods = [
+/*const goods = [
     { product_id: 1, product_name: 'Mango  People  T-shirt', product_img: 'f1.jpg', product_price: 52 },
     { product_id: 2, product_name: 'Mango  People  T-shirt', product_img: 'f2.jpg', product_price: 52 },
     { product_id: 3, product_name: 'Mango  People  T-shirt', product_img: 'f3.jpg', product_price: 52 },
@@ -59,7 +167,7 @@ const renderGoodsList = (list) => {
 
 renderGoodsList(goods);
 
-
+*/
 
 /*
 // получение индекса для проверки
