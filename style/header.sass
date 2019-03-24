@@ -1,0 +1,341 @@
+@charset "UTF-8"
+
+/* *  * Шапка сайта
+
+.header
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17)
+  border: 1px solid #ececec
+  background-color: #ffffff
+  height: 100px
+  padding-left: 148px
+
+.header-flex
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 100%
+
+.header-right
+  display: flex
+  align-items: center
+  padding-right: 50px
+  img
+    padding-right: 26px
+
+.header-right-cart-circle
+  width: 19px
+  height: 19px
+  background-color: #f16d7f
+  position: absolute
+  border-radius: 15px
+  top: 28px
+  right: 275px
+
+.header-right-cart-circle-text
+  color: #ffffff
+  font-size: 12px
+  font-weight: 700
+  line-height: 19px
+  display: block
+  text-align: center
+
+.header-left
+  display: flex
+  align-items: center
+
+.header-logo
+  display: flex
+  align-items: center
+  text-decoration: none
+  color: #222222
+  font-size: 27px
+  font-weight: 300
+  line-height: 32px
+  text-transform: uppercase
+  letter-spacing: 0.68px
+
+.img-logo
+  padding-right: 13px
+
+.header-form
+  padding-left: 39px
+  display: flex
+  align-items: center
+
+.header-form-button
+  width: 87px
+  height: 38px
+  border-radius: 3px 0 0 3px
+  border: 1px solid #e6e6e6
+  background-color: #cdcdcc
+  background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%)
+
+.header-form-button-text
+  padding-top: 4px
+  padding-left: 16px
+  font-size: 14px
+  font-weight: 300
+  letter-spacing: 0.35px
+  line-height: 32px
+
+.header-form-input
+  border-radius: 0 3px 3px 0
+  border: 1px solid #e6e6e6
+  background-color: #ffffff
+  width: 317px
+  height: 38px
+  padding-left: 16px
+  padding-right: 16px
+  color: #a4a4a4
+  font-size: 14px
+  font-weight: 300
+  line-height: 32px
+  letter-spacing: 0.35px
+  &:active
+    background-color: #ffffff
+
+.header-form-search
+  border-radius: 0 3px 3px 0
+  border: 1px solid #e6e6e6
+  background-color: #ffffff
+  height: 40px
+  width: 36px
+  color: #a4a4a4
+  font-size: 14px
+  font-weight: 400
+  line-height: 32px
+  letter-spacing: 0.35px
+
+.navigation
+  background-color: #ffffff
+
+.header-right-button
+  background-color: #f16d7f
+  color: #ffffff
+  font-size: 15px
+  font-weight: 400
+  letter-spacing: 0.38px
+  padding: 10px 15px
+  text-decoration: none
+  display: block
+
+/* *  * Меню со ссылками на всех страницах
+
+.menu-list
+  position: relative
+  &:hover .drop
+    display: flex
+    z-index: 2
+
+.menu-link
+  display: block
+  padding: 20px 20px
+  color: #222222
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+  text-decoration: none
+  &:hover
+    color: #f16d7f
+
+.menu
+  list-style-type: none
+  display: flex
+  justify-content: center
+
+/* *  Выпадающее мега меню для меню
+
+.drop
+  border-radius: 5px
+  background-color: #ffffff
+  border: 1px solid #e8e8e8
+  padding: 20px
+  display: none
+  position: absolute
+  &:before
+    content: ""
+    display: block
+    width: 14px
+    height: 14px
+    background-color: #fff
+    position: absolute
+    transform: rotate(45deg)
+    border-top: 1px solid #e8e8e8
+    border-left: 1px solid #e8e8e8
+    top: -8px
+
+.drop-flex
+  width: 235px
+  margin-right: 46px
+  &:last-of-type
+    margin-right: 0
+
+
+.drop-img
+  width: 255px
+  height: 118px
+  position: relative
+  &-title
+    position: absolute
+    width: 71px
+    height: 45px
+    top: 61px
+    left: 174px
+    color: #ffffff
+    font-size: 22px
+    font-weight: 400
+    line-height: 28px
+    text-transform: uppercase
+    letter-spacing: 0.55px
+
+.drop-h3
+  color: #232323
+  font-size: 14px
+  font-weight: 400
+  line-height: 32px
+  text-transform: uppercase
+  letter-spacing: 0.35px
+  border-bottom: 1px solid #e8e8e8
+
+.drop-link
+  color: #646464
+  font-size: 14px
+  font-weight: 400
+  line-height: 28px
+  letter-spacing: 0.35px
+  text-decoration: none
+  &:hover
+    color: #f16d7f
+
+.drop-menu
+  list-style-type: none
+
+/* *  Выпадающее меню на кнопку Browse
+/* *  * Кнопка Browse - переделать на CLICK на JS
+
+.header-form-button-text:hover .drop-browse
+  display: block
+  z-index: 2
+  margin-right: 0
+
+.drop-browse
+  border-radius: 5px
+  background-color: #ffffff
+  border: 1px solid #e8e8e8
+  padding: 20px
+  display: none
+  position: absolute
+
+.drop-browse-flex
+  width: 160px
+  margin-right: 46px
+
+/* *  Выпадающее меню для Корзины
+/* *  * Кнопка My Account - переделать на CLICK на JS
+
+.header-right-cart:hover .drop-cart
+  display: block
+  z-index: 2
+  left: 1118px
+
+.drop-cart
+  border-radius: 5px
+  background-color: #ffffff
+  border: 1px solid #e8e8e8
+  padding: 20px
+  display: none
+  position: absolute
+  &:before
+    content: ""
+    display: block
+    width: 14px
+    height: 14px
+    background-color: #fff
+    position: absolute
+    transform: rotate(45deg)
+    border-top: 1px solid #e8e8e8
+    border-left: 1px solid #e8e8e8
+    top: -8px
+
+.drop-cart-flex
+  width: 265px
+
+.cart-block
+  width: 265px
+  height: 105px
+  border-bottom: 1px solid #ededed
+  margin-bottom: 10px
+
+.cart-block-img
+  float: left
+  height: 85px
+  width: 72px
+
+.cart-block-text
+  padding-left: 90px
+  color: #e4af48
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+  h3
+    color: #222222
+    font-size: 12px
+    font-weight: 700
+    text-transform: uppercase
+    padding-bottom: 10px
+  p
+    color: #f16d7f
+    font-size: 12px
+    font-weight: 400
+    text-transform: uppercase
+    padding-bottom: 10px
+    padding-top: 10px
+
+.cart-block-cancel a
+  float: right
+  height: inherit
+  display: flex
+  justify-content: center
+  align-items: center
+  color: #c0c0c0
+  font-size: 16px
+  font-weight: 400
+  text-transform: uppercase
+
+.cart-block-hr
+  width: 262px
+  height: 3px
+  background-color: #ededed
+  margin-bottom: 15px
+
+.cart-block-total
+  margin-top: 20px
+  color: #222222
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+.cart-block-checkout
+  margin-top: 20px
+  display: block
+  border: 1px solid #f16d7f
+  color: #f16d7f
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+  padding: 20px 40px 20px 40px
+  text-align: center
+  &:hover
+    background-color: black
+    transition: all 0.5s
+
+.cart-block-go
+  margin-top: 20px
+  display: block
+  border: 1px solid #eaeaea
+  color: #4a4a4a
+  font-size: 14px
+  font-weight: 700
+  text-transform: uppercase
+  padding: 20px 40px 20px 40px
+  text-align: center

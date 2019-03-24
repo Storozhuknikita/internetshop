@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="style/header.css">
         <link rel="stylesheet" href="style/footer.css">
         <link rel="stylesheet" href="style/form.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <title>Index</title>
+        <title>Checkout</title>
     </head>
     <body>
 
@@ -63,29 +64,66 @@
                     <div class="header-right-cart">
                         <a href="#"><img src="img/cart.svg" alt="cart"></a>
                         <div class="header-right-cart-circle">
-                            <span class="header-right-cart-circle-text"></span>
+                            <span class="header-right-cart-circle-text">5</span>
                         </div>
-
                         <!-- Выпадающий блок корзины -->
                         <div class="drop-cart">
-                            <div class="drop-cart-flex" id="basket"></div>
+                            <div class="drop-cart-flex">
 
-                            <div class="cart-block-total" id="cart-block-total" style="display: none;"></div>
-                            <a href="checkout.html" class="cart-block-checkout" id="cart-block-checkout">CHECKOUT</a>
-                            <a href="shoppingcart.html" class="cart-block-go" id="cart-block-go">GO TO CART</a>
+                                <div class="cart-block">
+                                    <div class="cart-block-img" style="background-image: url('img/card-block-img-1.png');"></div>
+                                    <div class="cart-block-text">
+                                        <a href="page.html"><h3>Rebox Zane</h3></a>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            1 X 250$
+                                        </p>
+                                        <div class="cart-block-cancel">
+                                            <a href="#" class="action"><i class="far fa-times-circle"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cart-block">
+                                    <div class="cart-block-img" style="background-image: url('img/card-block-img-2.png');"></div>
+                                    <div class="cart-block-text">
+                                        <a href="page.html"><h3>Rebox Zane</h3></a>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <p>
+                                            1 X 250$
+                                        </p>
+                                        <div class="cart-block-cancel">
+                                            <a href="checkout.html" class="action"><i class="far fa-times-circle"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cart-block-total">Total: 500$</div>
+
+                                <a href="checkout.html" class="cart-block-checkout">CHECKOUT</a>
+                                <a href="shoppingcart.html" class="cart-block-go">GO TO CART</a>
+
+                            </div>
                         </div>
-                        <!-- Выпадающий блок корзины -->
 
                     </div>
 
                     <div class="header-right-block">
                         <a href="#" class="header-right-button">My Account <i class="fas fa-caret-down"></i></a>
                     </div>
-
                 </div>
 
             </section>
         </header>
+
 
         <nav class="navigation">
             <div class="container">
@@ -141,10 +179,17 @@
                                     <li><a href="" class="drop-link">Tops</a></li>
                                     <li><a href="" class="drop-link">Sweaters/Knits</a></li>
                                     <li><a href="" class="drop-link">Jackets/Coats</a></li>
+                                    <li><a href="" class="drop-link">Blazers</a></li>
+                                    <li><a href="" class="drop-link">Denim</a></li>
+                                    <li><a href="" class="drop-link">Leggings/Pants</a></li>
+                                    <li><a href="" class="drop-link">Skirts/Shorts</a></li>
+                                    <li><a href="" class="drop-link">Accessories</a></li>
+                                    <li><a href="" class="drop-link">Bags/Purses</a></li>
+                                    <li><a href="" class="drop-link">Swimwear/Underwear</a></li>
+                                    <li><a href="" class="drop-link">Nightwear</a></li>
+                                    <li><a href="" class="drop-link">Shoes</a></li>
+                                    <li><a href="" class="drop-link">Beauty</a></li>
                                 </ul>
-                                <div class="drop-img" style="background-image: url('img/banner-menu.png');">
-                                    <div class="drop-img-title">SUPER SALE</div>
-                                </div>
                             </div>
                         </div>
                     </li>
@@ -230,124 +275,96 @@
             </div>
         </nav>
 
-        <main class="promo">
-            <div class="container promo-content">
-                <div class="promo-text">
-                    <h2 class="promo-h2">THE BRAND</h2>
-                    <h3 class="promo-h3">OF LUXERIOUS <span class="pink">FASHION</span></h3>
-                </div>
-            </div>
-        </main>
-
-        <main class="category">
-            <div class="container category-view">
-
-                <div class="category-block1">
-                    <div class="category-block category-title">
-                        <a href="#">
-                            HOT DEAL <br/>
-                            <span class="category-title-pink">FOR MEN</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="category-block2">
-                    <div class="category-block category-title">
-                        <a href="#">
-                            30% OFFER <br/>
-                            <span class="category-title-pink">WOMEN</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="category-block4">
-                    <div class="category-block category-title">
-                        <a href="#">
-                            NEW ARRIVALS <br/>
-                            <span class="category-title-pink">FOR KIDS</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="category-block3">
-                    <div class="category-block category-title">
-                        <a href="#">
-                            LUXIROUS & trendy<br/>
-                            <span class="category-title-pink">ACCESORIES</span>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </main>
-
-        <main class="fetures">
-
+        <main class="breadcrumb">
             <div class="container">
-
-                <div class="fetures-info">
-                    <h3 class="fetures-title">Fetured Items</h3>
-                    <span class="fetures-desc">
-                        Shop for items based on what we featured in this week
+                <div  class="breadcrumb-block">
+                    <span class="breadcrumb-title">NEW ARRIVALS</span>
+                    <span class="breadcrumb-nav">
+                        <a href="index.html" class="breadcrumb-nav-back">HOME</a> /
+                        <a href="product.html" class="breadcrumb-nav-back">MEN</a> /
+                        <a href="page.html" class="breadcrumb-nav-this">NEW ARRIVALS</a>
                     </span>
                 </div>
-
-                <!-- Рендер товаров -->
-                <div class="fetures-items" id="fetures-items">
-
-                </div>
-
-                <div class="fetures-end">
-                    <a href="product.html" class="button">Browse All Product</a>
-                </div>
-
             </div>
-
         </main>
 
-        <main class="offer">
+        <main class="checkout">
 
             <div class="container">
 
-                <div class="offer-promo">
-                    <div class="offer-promo-title">
-                        30% <span class="pink">OFFER</span><br/>
-                        <span class="offer-promo-title-span">WOMEN</span>
-                    </div>
-                </div>
+                <section class="checkout-num" id="checkout-first">
+                    <span class="checkout-title">01. SHIPPING ADRESS</span>
 
-                <div class="offer-desc">
+                    <div class="checkout-blocks">
+                        <div class="checkout-first-left-block">
+                            <span class="checkout-first-left-block-title">Check as a guest or register</span>
+                            <span class="checkout-first-left-block-text">Register with us for future convenience</span>
 
-                    <div class="offer-block">
-                        <span class="offer-desc-img"><img src="img/ship.svg"></span>
-                        <span class="offer-desc-title">Free Delivery</span>
-                        <div class="offer-desc-text">
-                            Worldwide delivery on all.
-                            Authorit tively morph next-generation innov tion with extensive models.
+
+                            <label class="radio">
+                                <input type="radio" name="guest" class="checkout-first-left-block-radio" checked>
+                                <div class="radio__text">checkout as guest</div>
+                            </label><br/>
+
+                            <label class="radio">
+                                <input type="radio" name="guest" class="checkout-first-left-block-radio">
+                                <div class="radio__text">register</div>
+                            </label><br/>
+
+                            <span class="checkout-first-left-block-title">register and save time!</span>
+                            <span class="checkout-first-left-block-text">Register with us for future convenience</span>
+
+                            <span class="checkout-first-left-block-span">&raquo; Fast and easy checkout</span>
+                            <span class="checkout-first-left-block-span">&raquo; Easy access to your order history and status</span>
+
+
+                            <button class="checkout-first-left-block-button">Continue</button>
                         </div>
-                    </div>
 
-                    <div class="offer-block">
-                        <span class="offer-desc-img"><img src="img/sales.svg"></span>
-                        <span class="offer-desc-title">Sales & discounts</span>
-                        <div class="offer-desc-text">
-                            Worldwide delivery on all.
-                            Authorit tively morph next-generation innov tion with extensive models.
+                        <div class="checkout-first-right-block">
+                            <span class="checkout-first-left-block-title">ALREADY REGISTED?</span>
+                            <span class="checkout-first-left-block-text">Please log in below</span>
+
+                            <label for="email">EMAIL ADDRESS <span class="checkout-first-right-block-z">*</span><br/>
+                                <input name="email" id="email" type="email">
+                            </label><br/>
+
+                            <label for="password">PASSWORD <span class="checkout-first-right-block-z">*</span><br/>
+                                <input name="password" id="password" type="password">
+                            </label><br/>
+
+                            <span class="checkout-first-right-block-z">* Required Fileds</span><br/>
+
+                            <button class="checkout-first-left-block-button">Continue</button>
+                            <a href="">Forgot Password ?</a>
+
                         </div>
-                    </div>
 
-                    <div class="offer-block">
-                        <span class="offer-desc-img"><img src="img/quality.svg"></span>
-                        <span class="offer-desc-title">Quality assurance</span>
-                        <div class="offer-desc-text">
-                            Worldwide delivery on all.
-                            Authorit tively morph next-generation innov tion with extensive models.
-                        </div>
                     </div>
+                </section>
 
-                </div>
+                <section class="checkout-num" id="checkout-second">
+                    <span class="checkout-title">02. BILLING INFORMATION</span>
+                </section>
+
+                <section class="checkout-num" id="checkout-third">
+                    <span class="checkout-title">03. SHIPPING INFORMATION</span>
+                </section>
+
+                <section class="checkout-num" id="checkout-four">
+                    <span class="checkout-title">04. SHIPPING METHOD</span>
+                </section>
+
+                <section class="checkout-num" id="checkout-five">
+                    <span class="checkout-title">05. PAYMENT METHOD</span>
+                </section>
+
+                <section class="checkout-num" id="checkout-six">
+                    <span class="checkout-title">06. ORDER REVIEW</span>
+                </section>
 
             </div>
+
         </main>
 
         <main class="subscribe">
@@ -358,9 +375,9 @@
                     <div class="review-block">
                         <img src="img/photo.png">
                         <span class="review-text">
-                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
-                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
-                        </span>
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                    </span>
                         <span class="review-author">Bin Burhan</span><br/>
                         <span class="review-author-city">Dhaka, Bd</span>
                     </div>
@@ -368,9 +385,9 @@
                     <div class="review-block" style="display:none;">
                         <img src="img/photo.png">
                         <span class="review-text">
-                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
-                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
-                        </span>
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                    </span>
                         <div class="review-author">Bin Burhan</div>
                         <div class="review-author-city">Dhaka, Bd</div>
                     </div>
@@ -378,9 +395,9 @@
                     <div class="review-block" style="display:none;">
                         <img src="img/photo.png">
                         <span class="review-text">
-                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
-                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
-                        </span>
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                    </span>
                         <div class="review-author">Bin Burhan</div>
                         <div class="review-author-city">Dhaka, Bd</div>
                     </div>
@@ -388,7 +405,7 @@
                     <div class="subscribe-block">
                         <div class="subscribe-text-title">Subscribe</div>
                         <div class="subscribe-text-span">FOR OUR NEWLETTER AND PROMOTION</div>
-                        <form action="">
+                        <form action="#">
                             <input type="text" placeholder="Enter Your Email">
                             <button class="button">Subscribe</button>
                         </form>
@@ -403,8 +420,7 @@
                 </div>
 
             </div>
-        </main>
-
+        </main
 
         <section class="links">
             <div class="container">
@@ -464,43 +480,20 @@
         <footer>
             <div class="container">
 
-                <span class="footer-left">
-                    <span class="footer-copyright">© 2017  Brand  All Rights Reserved.</span>
-                </span>
+            <span class="footer-left">
+                <span class="footer-copyright">© 2017  Brand  All Rights Reserved.</span>
+            </span>
 
                 <span class="footer-right">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social"><i class="fab fa-pinterest-p"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                </span>
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            </span>
 
             </div>
         </footer>
-
-        <!-- шаблон вывода корзины -->
-        <div class="cart-block" style="display: none;" id="">
-            <div class="cart-block-img"></div>
-            <div class="cart-block-text">
-                <a href="page.html"><h3 class="cart-block-name"></h3></a>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <p class="cart-block-price-count" id="cart-block-price-count">
-
-                </p>
-                <div class="cart-block-cancel">
-                    <a href="#" class="action"><i class="far fa-times-circle"></i></a>
-                </div>
-            </div>
-        </div>
-        <!-- шаблон вывода корзины -->
-
-
-        <script src="js/app.js"></script>
 
     </body>
 </html>

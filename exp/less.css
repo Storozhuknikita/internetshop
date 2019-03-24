@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: darkcyan;
+  height: 100px;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 400px;
+  background-color: red;
+  height: 100px;
+}
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #6f6e6e;
+  height: 100px;
+}
