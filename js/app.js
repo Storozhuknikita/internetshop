@@ -209,6 +209,8 @@ class Cart {
     }
 
 
+
+
     // подсчет итого
     // cart - корзина
     buildTotal() {
