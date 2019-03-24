@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="style/header.css">
         <link rel="stylesheet" href="style/footer.css">
         <link rel="stylesheet" href="style/form.css">
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <title>Index</title>
     </head>
@@ -64,61 +63,25 @@
                     <div class="header-right-cart">
                         <a href="#"><img src="img/cart.svg" alt="cart"></a>
                         <div class="header-right-cart-circle">
-                            <span class="header-right-cart-circle-text">5</span>
+                            <span class="header-right-cart-circle-text"></span>
                         </div>
+
                         <!-- Выпадающий блок корзины -->
                         <div class="drop-cart">
-                            <div class="drop-cart-flex">
+                            <div class="drop-cart-flex" id="basket"></div>
 
-                                <div class="cart-block">
-                                    <div class="cart-block-img" style="background-image: url('img/card-block-img-1.png');"></div>
-                                    <div class="cart-block-text">
-                                        <a href="page.html"><h3>Rebox Zane</h3></a>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <p>
-                                            1 X 250$
-                                        </p>
-                                        <div class="cart-block-cancel">
-                                            <a href="#" class="action"><i class="far fa-times-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="cart-block">
-                                    <div class="cart-block-img" style="background-image: url('img/card-block-img-2.png');"></div>
-                                    <div class="cart-block-text">
-                                        <a href="page.html"><h3>Rebox Zane</h3></a>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <p>
-                                            1 X 250$
-                                        </p>
-                                        <div class="cart-block-cancel">
-                                            <a href="checkout.html" class="action"><i class="far fa-times-circle"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="cart-block-total">Total: 500$</div>
-
-                                <a href="checkout.html" class="cart-block-checkout">CHECKOUT</a>
-                                <a href="shoppingcart.html" class="cart-block-go">GO TO CART</a>
-
-                            </div>
+                            <div class="cart-block-total" id="cart-block-total" style="display: none;"></div>
+                            <a href="checkout.html" class="cart-block-checkout" id="cart-block-checkout">CHECKOUT</a>
+                            <a href="shoppingcart.html" class="cart-block-go" id="cart-block-go">GO TO CART</a>
                         </div>
+                        <!-- Выпадающий блок корзины -->
 
                     </div>
 
                     <div class="header-right-block">
                         <a href="#" class="header-right-button">My Account <i class="fas fa-caret-down"></i></a>
                     </div>
+
                 </div>
 
             </section>
@@ -329,8 +292,8 @@
                     </span>
                 </div>
 
-                <div class="fetures-items">
-
+                <!-- Рендер товаров -->
+                <div class="fetures-items" id="fetures-items">
 
                 </div>
 
@@ -516,8 +479,28 @@
             </div>
         </footer>
 
+        <!-- шаблон вывода корзины -->
+        <div class="cart-block" style="display: none;" id="">
+            <div class="cart-block-img"></div>
+            <div class="cart-block-text">
+                <a href="page.html"><h3 class="cart-block-name"></h3></a>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p class="cart-block-price-count" id="cart-block-price-count">
 
-        <script src="js/product.js"></script>
+                </p>
+                <div class="cart-block-cancel">
+                    <a href="#" class="action"><i class="far fa-times-circle"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- шаблон вывода корзины -->
+
+
+        <script src="js/app.js"></script>
 
     </body>
 </html>
