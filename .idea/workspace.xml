@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6177fbf8-69df-47e3-90b4-f5633b9c078d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/product.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,13 +28,13 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="201" column="8" lean-forward="false" selection-start-line="201" selection-start-column="8" selection-end-line="201" selection-end-column="8" />
+            <state relative-caret-position="207">
+              <caret line="212" column="4" lean-forward="false" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
               <folding>
-                <marker date="1553448541640" expanded="true" signature="367:735" ph="..." />
-                <marker date="1553448541640" expanded="true" signature="384:669" ph="..." />
-                <marker date="1553448541640" expanded="true" signature="425:474" ph="..." />
-                <marker date="1553448541640" expanded="true" signature="515:660" ph="..." />
+                <marker date="1553448734635" expanded="true" signature="367:735" ph="..." />
+                <marker date="1553448734635" expanded="true" signature="384:669" ph="..." />
+                <marker date="1553448734635" expanded="true" signature="425:474" ph="..." />
+                <marker date="1553448734635" expanded="true" signature="515:660" ph="..." />
               </folding>
             </state>
           </provider>
@@ -123,6 +122,7 @@
         <option value="$PROJECT_DIR$/js/product.js" />
         <option value="$PROJECT_DIR$/product.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
@@ -184,11 +184,6 @@
             <path>
               <item name="course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="course1" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="course1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course1" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -284,12 +279,12 @@
       <workItem from="1552933172719" duration="497000" />
       <workItem from="1552935799201" duration="2279000" />
       <workItem from="1553188922948" duration="3419000" />
-      <workItem from="1553438628304" duration="7218000" />
+      <workItem from="1553438628304" duration="7380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138163000" />
+    <option name="totallyTimeSpent" value="138325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -348,13 +343,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3945">
-          <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="316" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3015">
@@ -628,15 +616,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="201" column="8" lean-forward="false" selection-start-line="201" selection-start-column="8" selection-end-line="201" selection-end-column="8" />
+        <state relative-caret-position="207">
+          <caret line="212" column="4" lean-forward="false" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
           <folding>
-            <marker date="1553448541640" expanded="true" signature="367:735" ph="..." />
-            <marker date="1553448541640" expanded="true" signature="384:669" ph="..." />
-            <marker date="1553448541640" expanded="true" signature="425:474" ph="..." />
-            <marker date="1553448541640" expanded="true" signature="515:660" ph="..." />
+            <marker date="1553448734635" expanded="true" signature="367:735" ph="..." />
+            <marker date="1553448734635" expanded="true" signature="384:669" ph="..." />
+            <marker date="1553448734635" expanded="true" signature="425:474" ph="..." />
+            <marker date="1553448734635" expanded="true" signature="515:660" ph="..." />
           </folding>
         </state>
       </provider>
