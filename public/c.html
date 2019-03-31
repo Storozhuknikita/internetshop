@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Title</title>
+    </head>
+    <body>
+        <ul id="contacts"></ul>
+
+
+        Имя<br/>
+        <input type="text" name="name" placeholder="Имя"><br/>
+
+        Телефон<br/>
+        <input type="number" name="phone" placeholder="+79997355025"><br/>
+
+        Email<br/>
+        <input type="email" name="email" placeholder="Email"><br/>
+
+        <button id="add">Send</button>
+
+        <script>
+
+
+            /*/abc/ // abc, blablasdljqweadsad
+            /[abc]/ // a,b,c набор
+            /[^abc]/
+            /[a-zA-Z123]/ // диапазон
+            /\d/ // все цифры
+            ///\D/ // все что угодно кроме цифр
+            /\w/ // все латинские буквы, цифр и знак подчеркивания
+            /\W/
+            /\s/ // любой пробельный символ, пробел, табуляция, перевод строки
+            /\S/
+            /\b/ // граница слова*/
+
+            let phone = '+7-999-735-50-25';
+            const regexp = /^\+\d{1,3}-\d{3}-\d{3}-\d{2}-\d{2}$/;
+            regexp.test(phone);
+
+
+            const $contacts = document.querySelector('#contacts');
+            const $add = document.querySelector('#add');
+
+
+            /*
+             * Удаление
+             */
+            $contacts.addEventListener('click', (event) => {
+               if(event.target.classList.contains('remove')) {
+                   if(confirm('Are you sure?')){
+                       const id = event.target.dataset.id;
+
+                       fetch(`/users/${id}`, {method: 'DELETE'})
+                           .then(() => {
+                               $contacts.removeChild(event.target.parentElement)
+                           });
+                   }
+               }
+            });
+
+            /*
+             * Добавление
+             */
+            $add.addEventListener('click', () => {
+
+                const name = prompt('Input Name');
+                const phone = prompt('Input Phone');
+
+                fetch('/users', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ name, phone }),
+                })
+                .then((response) => response.json())
+                .then((item) => {
+                        $contacts.innerHTML += `<li>${item.name}: ${item.phone} <button class="remove" data-id="${item.id}">X</button></li>`;
+                });
+
+            });
+
+            fetch('/users')
+                .then((response) => response.json())
+                .then((items) =>  {
+                   $contacts.innerHTML = items.map((item) => `<li>${item.name}: ${item.phone} <button class="remove" data-id="${item.id}">X</button></li>`).join('');
+                });
+
+        </script>
+    </body>
+</html>
