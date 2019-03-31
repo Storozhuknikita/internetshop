@@ -178,7 +178,7 @@ class Cart {
             this.product = event.target.parentElement;
             this.productId = this.product.id;
             // найти индекс
-            let idx = this.getProductIndexForDelete(this.productId);
+            const idx = this.getProductIndexForDelete(this.productId);
             // удаление по индексу
             this.cart.splice(idx, 1);
             // рендер
