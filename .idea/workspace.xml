@@ -2,9 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6177fbf8-69df-47e3-90b4-f5633b9c078d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/img/photo1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/products.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/public/checkout.html" />
+      <change beforePath="$PROJECT_DIR$/exp/_mixin.sass" afterPath="$PROJECT_DIR$/public/exp/_mixin.sass" />
+      <change beforePath="$PROJECT_DIR$/exp/index-b.html" afterPath="$PROJECT_DIR$/public/exp/index-b.html" />
+      <change beforePath="$PROJECT_DIR$/exp/index-less.html" afterPath="$PROJECT_DIR$/public/exp/index-less.html" />
+      <change beforePath="$PROJECT_DIR$/exp/index-sass.html" afterPath="$PROJECT_DIR$/public/exp/index-sass.html" />
+      <change beforePath="$PROJECT_DIR$/exp/less.css" afterPath="$PROJECT_DIR$/public/exp/less.css" />
+      <change beforePath="$PROJECT_DIR$/exp/less.less" afterPath="$PROJECT_DIR$/public/exp/less.less" />
+      <change beforePath="$PROJECT_DIR$/exp/sass.css" afterPath="$PROJECT_DIR$/public/exp/sass.css" />
+      <change beforePath="$PROJECT_DIR$/exp/sass.css.map" afterPath="$PROJECT_DIR$/public/exp/sass.css.map" />
+      <change beforePath="$PROJECT_DIR$/exp/sass.sass" afterPath="$PROJECT_DIR$/public/exp/sass.sass" />
+      <change beforePath="$PROJECT_DIR$/fonts/Lato-Black.ttf" afterPath="$PROJECT_DIR$/db.json" />
+      <change beforePath="$PROJECT_DIR$/img/banner-menu.png" afterPath="$PROJECT_DIR$/public/img/banner-menu.png" />
+      <change beforePath="$PROJECT_DIR$/img/card-block-img-1.png" afterPath="$PROJECT_DIR$/public/img/card-block-img-1.png" />
+      <change beforePath="$PROJECT_DIR$/img/card-block-img-2.png" afterPath="$PROJECT_DIR$/public/img/card-block-img-2.png" />
+      <change beforePath="$PROJECT_DIR$/img/cart.svg" afterPath="$PROJECT_DIR$/public/img/cart.svg" />
+      <change beforePath="$PROJECT_DIR$/img/cart_r.svg" afterPath="$PROJECT_DIR$/public/img/cart_r.svg" />
+      <change beforePath="$PROJECT_DIR$/img/f1.jpg" afterPath="$PROJECT_DIR$/public/img/f1.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/f2.jpg" afterPath="$PROJECT_DIR$/public/img/f2.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/f3.jpg" afterPath="$PROJECT_DIR$/public/img/f3.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/f4.jpg" afterPath="$PROJECT_DIR$/public/img/f4.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/f5.jpg" afterPath="$PROJECT_DIR$/public/img/f5.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/f6.jpg" afterPath="$PROJECT_DIR$/public/img/f6.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/f7.jpg" afterPath="$PROJECT_DIR$/public/img/f7.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/f8.jpg" afterPath="$PROJECT_DIR$/public/img/f8.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/icon-bucket.png" afterPath="$PROJECT_DIR$/public/img/icon-bucket.png" />
+      <change beforePath="$PROJECT_DIR$/img/icon-love.png" afterPath="$PROJECT_DIR$/public/img/icon-love.png" />
+      <change beforePath="$PROJECT_DIR$/img/icon-share.png" afterPath="$PROJECT_DIR$/public/img/icon-share.png" />
+      <change beforePath="$PROJECT_DIR$/img/logo.jpg" afterPath="$PROJECT_DIR$/public/img/logo.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/public/img/logo.png" />
+      <change beforePath="$PROJECT_DIR$/img/offer.jpg" afterPath="$PROJECT_DIR$/public/img/offer.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/page/cover.png" afterPath="$PROJECT_DIR$/public/img/page/cover.png" />
+      <change beforePath="$PROJECT_DIR$/img/page/girl1.png" afterPath="$PROJECT_DIR$/public/img/page/girl1.png" />
+      <change beforePath="$PROJECT_DIR$/img/page/girl2.png" afterPath="$PROJECT_DIR$/public/img/page/girl2.png" />
+      <change beforePath="$PROJECT_DIR$/img/page/girl3.png" afterPath="$PROJECT_DIR$/public/img/page/girl3.png" />
+      <change beforePath="$PROJECT_DIR$/img/page/girl4.png" afterPath="$PROJECT_DIR$/public/img/page/girl4.png" />
+      <change beforePath="$PROJECT_DIR$/img/photo.png" afterPath="$PROJECT_DIR$/public/img/photo.png" />
+      <change beforePath="$PROJECT_DIR$/img/photo1.jpg" afterPath="$PROJECT_DIR$/public/fonts/Lato-Black.ttf" />
+      <change beforePath="$PROJECT_DIR$/img/photo2.jpg" afterPath="$PROJECT_DIR$/public/img/photo2.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/photo3.jpg" afterPath="$PROJECT_DIR$/public/img/photo3.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/photo4.jpg" afterPath="$PROJECT_DIR$/public/img/photo4.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/promo.jpg" afterPath="$PROJECT_DIR$/public/img/promo.jpg" />
+      <change beforePath="$PROJECT_DIR$/img/quality.svg" afterPath="$PROJECT_DIR$/public/img/quality.svg" />
+      <change beforePath="$PROJECT_DIR$/img/sales.svg" afterPath="$PROJECT_DIR$/public/img/sales.svg" />
+      <change beforePath="$PROJECT_DIR$/img/ship.svg" afterPath="$PROJECT_DIR$/public/img/ship.svg" />
+      <change beforePath="$PROJECT_DIR$/img/shopping-cart-1.png" afterPath="$PROJECT_DIR$/public/img/shopping-cart-1.png" />
+      <change beforePath="$PROJECT_DIR$/img/shopping-cart-2.png" afterPath="$PROJECT_DIR$/public/img/shopping-cart-2.png" />
+      <change beforePath="$PROJECT_DIR$/img/square.png" afterPath="$PROJECT_DIR$/public/img/square.png" />
+      <change beforePath="$PROJECT_DIR$/img/subcribe.jpg" afterPath="$PROJECT_DIR$/public/img/subcribe.jpg" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/page.html" afterPath="$PROJECT_DIR$/public/page.html" />
+      <change beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/public/product.html" />
+      <change beforePath="$PROJECT_DIR$/shoppingcart.html" afterPath="$PROJECT_DIR$/public/shoppingcart.html" />
+      <change beforePath="$PROJECT_DIR$/style/footer.css" afterPath="$PROJECT_DIR$/public/style/footer.css" />
+      <change beforePath="$PROJECT_DIR$/style/footer.css.map" afterPath="$PROJECT_DIR$/public/style/footer.css.map" />
+      <change beforePath="$PROJECT_DIR$/style/footer.sass" afterPath="$PROJECT_DIR$/public/style/footer.sass" />
+      <change beforePath="$PROJECT_DIR$/style/form.css" afterPath="$PROJECT_DIR$/public/style/form.css" />
+      <change beforePath="$PROJECT_DIR$/style/form.css.map" afterPath="$PROJECT_DIR$/public/style/form.css.map" />
+      <change beforePath="$PROJECT_DIR$/style/form.sass" afterPath="$PROJECT_DIR$/public/style/form.sass" />
+      <change beforePath="$PROJECT_DIR$/style/header.css" afterPath="$PROJECT_DIR$/public/style/header.css" />
+      <change beforePath="$PROJECT_DIR$/style/header.css.map" afterPath="$PROJECT_DIR$/public/style/header.css.map" />
+      <change beforePath="$PROJECT_DIR$/style/header.sass" afterPath="$PROJECT_DIR$/public/style/header.sass" />
+      <change beforePath="$PROJECT_DIR$/style/header.sass.map" afterPath="$PROJECT_DIR$/public/style/header.sass.map" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" afterPath="$PROJECT_DIR$/public/style/main.css" />
+      <change beforePath="$PROJECT_DIR$/style/main.css.map" afterPath="$PROJECT_DIR$/public/style/main.css.map" />
+      <change beforePath="$PROJECT_DIR$/style/main.sass" afterPath="$PROJECT_DIR$/public/style/main.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,35 +82,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="482" column="59" lean-forward="false" selection-start-line="482" selection-start-column="59" selection-end-line="482" selection-end-column="59" />
+            <state relative-caret-position="7530">
+              <caret line="502" column="32" lean-forward="false" selection-start-line="502" selection-start-column="32" selection-end-line="502" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
+        <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="212" column="4" lean-forward="false" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
+            <state relative-caret-position="-225">
+              <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
               <folding>
-                <marker date="1553448734635" expanded="true" signature="367:735" ph="..." />
-                <marker date="1553448734635" expanded="true" signature="384:669" ph="..." />
-                <marker date="1553448734635" expanded="true" signature="425:474" ph="..." />
-                <marker date="1553448734635" expanded="true" signature="515:660" ph="..." />
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1553711166901" expanded="true" signature="715:1224" ph="..." />
+                <marker date="1553711166901" expanded="true" signature="748:1126" ph="..." />
+                <marker date="1553711166901" expanded="false" signature="805:853" ph="..." />
+                <marker date="1553711166901" expanded="true" signature="910:1101" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product.html">
+      <file leaf-file-name="products.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/products.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="659" column="62" lean-forward="true" selection-start-line="659" selection-start-column="62" selection-end-line="659" selection-end-column="62" />
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9885">
+              <caret line="659" column="0" lean-forward="false" selection-start-line="659" selection-start-column="0" selection-end-line="675" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#main#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -57,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mango</find>
       <find>product-fetures-items</find>
       <find>feture</find>
       <find>.feture</find>
@@ -87,6 +163,7 @@
       <find>add to c</find>
       <find>cart-block-price-count</find>
       <find>cart-block</find>
+      <find>getProductIndexForDelete</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,6 +201,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/db.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/js/products.json" />
+        <option value="$PROJECT_DIR$/public/js/app.js" />
       </list>
     </option>
   </component>
@@ -178,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,11 +267,21 @@
               <item name="course1" type="b2602c69:ProjectViewProjectNode" />
               <item name="course1" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="course1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -201,11 +293,12 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/exp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/exp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,19 +372,21 @@
       <workItem from="1552933172719" duration="497000" />
       <workItem from="1552935799201" duration="2279000" />
       <workItem from="1553188922948" duration="3419000" />
-      <workItem from="1553438628304" duration="7380000" />
+      <workItem from="1553438628304" duration="7508000" />
+      <workItem from="1553533015244" duration="9239000" />
+      <workItem from="1553703546542" duration="4362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138325000" />
+    <option name="totallyTimeSpent" value="152054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20314735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20886981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18656716" sideWeight="0.54005724" order="7" side_tool="true" content_ui="tabs" />
@@ -299,7 +394,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.46566522" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18283582" sideWeight="0.4599428" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24502487" sideWeight="0.4599428" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -343,36 +438,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checkout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3015">
-          <caret line="201" column="15" lean-forward="false" selection-start-line="201" selection-start-column="15" selection-end-line="201" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="138" column="10" lean-forward="true" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="13" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="39" selection-end-column="13" />
@@ -380,7 +461,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
@@ -388,7 +469,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3675">
           <caret line="245" column="45" lean-forward="false" selection-start-line="245" selection-start-column="45" selection-end-line="245" selection-end-column="45" />
@@ -396,14 +477,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
@@ -418,12 +499,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/offer.jpg">
+    <entry file="file://$PROJECT_DIR$/public/img/offer.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp/index-b.html">
+    <entry file="file://$PROJECT_DIR$/public/exp/index-b.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="10" />
@@ -432,35 +513,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.less" />
     <entry file="file://$PROJECT_DIR$/scss.scss" />
-    <entry file="file://$PROJECT_DIR$/exp/index-less.html">
+    <entry file="file://$PROJECT_DIR$/public/exp/index-less.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp/less.css">
+    <entry file="file://$PROJECT_DIR$/public/exp/less.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp/less.less">
+    <entry file="file://$PROJECT_DIR$/public/exp/less.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp/sass.css">
+    <entry file="file://$PROJECT_DIR$/public/exp/sass.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp/index-sass.html">
+    <entry file="file://$PROJECT_DIR$/public/exp/index-sass.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
@@ -468,7 +549,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/img/card-block-img-1.png">
+    <entry file="file://$PROJECT_DIR$/public/img/card-block-img-1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -480,54 +561,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
+    <entry file="file://$PROJECT_DIR$/public/img/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/form.css">
+    <entry file="file://$PROJECT_DIR$/public/style/form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/footer.css">
+    <entry file="file://$PROJECT_DIR$/public/style/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="140" column="1" lean-forward="false" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/form.sass">
+    <entry file="file://$PROJECT_DIR$/public/style/form.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/footer.sass">
+    <entry file="file://$PROJECT_DIR$/public/style/footer.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="136" column="6" lean-forward="false" selection-start-line="136" selection-start-column="6" selection-end-line="136" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/header.css">
+    <entry file="file://$PROJECT_DIR$/public/style/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="96" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp/_mixin.sass">
+    <entry file="file://$PROJECT_DIR$/public/exp/_mixin.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exp/sass.sass">
+    <entry file="file://$PROJECT_DIR$/public/exp/sass.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -535,7 +616,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/_mixin.sass" />
-    <entry file="file://$PROJECT_DIR$/style/header.sass.map">
+    <entry file="file://$PROJECT_DIR$/public/style/header.sass.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
@@ -545,35 +626,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/header.sass">
+    <entry file="file://$PROJECT_DIR$/public/style/header.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-992">
           <caret line="239" column="0" lean-forward="true" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/main.sass">
+    <entry file="file://$PROJECT_DIR$/public/style/main.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page.html">
+    <entry file="file://$PROJECT_DIR$/public/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="515" column="0" lean-forward="false" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoppingcart.html">
+    <entry file="file://$PROJECT_DIR$/public/shoppingcart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="496" column="0" lean-forward="false" selection-start-line="495" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkout.html">
+    <entry file="file://$PROJECT_DIR$/public/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="448" column="0" lean-forward="false" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
@@ -583,7 +664,7 @@
     <entry file="file://$PROJECT_DIR$/js.html" />
     <entry file="file://$PROJECT_DIR$/js/script.js" />
     <entry file="file://$PROJECT_DIR$/index.js" />
-    <entry file="file://$PROJECT_DIR$/style/main.css">
+    <entry file="file://$PROJECT_DIR$/public/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-367">
           <caret line="887" column="23" lean-forward="false" selection-start-line="887" selection-start-column="23" selection-end-line="887" selection-end-column="23" />
@@ -597,10 +678,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="659" column="62" lean-forward="true" selection-start-line="659" selection-start-column="62" selection-end-line="659" selection-end-column="62" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9885">
+          <caret line="659" column="0" lean-forward="false" selection-start-line="659" selection-start-column="0" selection-end-line="675" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#main#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -608,31 +703,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="482" column="59" lean-forward="false" selection-start-line="482" selection-start-column="59" selection-end-line="482" selection-end-column="59" />
+        <state relative-caret-position="7530">
+          <caret line="502" column="32" lean-forward="false" selection-start-line="502" selection-start-column="32" selection-end-line="502" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/public/js/products.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="212" column="4" lean-forward="false" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
+        <state relative-caret-position="-225">
+          <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
           <folding>
-            <marker date="1553448734635" expanded="true" signature="367:735" ph="..." />
-            <marker date="1553448734635" expanded="true" signature="384:669" ph="..." />
-            <marker date="1553448734635" expanded="true" signature="425:474" ph="..." />
-            <marker date="1553448734635" expanded="true" signature="515:660" ph="..." />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1553711166901" expanded="true" signature="715:1224" ph="..." />
+            <marker date="1553711166901" expanded="true" signature="748:1126" ph="..." />
+            <marker date="1553711166901" expanded="false" signature="805:853" ph="..." />
+            <marker date="1553711166901" expanded="true" signature="910:1101" ph="..." />
           </folding>
         </state>
       </provider>
