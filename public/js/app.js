@@ -1,17 +1,8 @@
 /*
     * Функция отправки запросов
  */
-function sendRequest(url, callback){
-
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', url); // настройка запроса
-    xhr.send(); // отправляем запрос
-
-    xhr.onreadystatechange = () => {
-        if(xhr.readyState === XMLHttpRequest.DONE){
-            callback(JSON.parse(xhr.responseText));
-        }
-    };
+function sendRequest(url){
+    return fetch(url).then((response) => response.json());
 }
 
 /*
@@ -56,10 +47,18 @@ class ItemList {
      */
 
     fetchItems(callback) {
-        sendRequest('/js/products.json', (items) => {
+        return sendRequest('/js/products.json').then((items) => {
             this.items = items.map(item => new Item(item.productId, item.productName, item.productImg, item.productPrice));
-            callback(this.items);
+            this.filteredItems = this.items;
         });
+    }
+
+    /*
+     * Поиск в интернет магазине на главной странице
+     */
+    filterItems(query){
+        const regExp = new RegExp(query, 'i');
+        this.filteredItems = this.items.filter((item) => regExp.test(item.productName));
     }
 
     /*
@@ -68,8 +67,7 @@ class ItemList {
      * 25.03.2019
      */
     render() {
-        const itemsHtml = this.items.map(item => item.render());
-        console.log(itemsHtml);
+        const itemsHtml = this.filteredItems.map(item => item.render());
         return itemsHtml.join('');
     }
 }
@@ -266,7 +264,15 @@ class Launch {
     render() {
         // запуск рендера товаров
         const items = new ItemList();
-        items.fetchItems(() => {
+        items.fetchItems().then(() => {
+            document.querySelector('.fetures-items').innerHTML = items.render();
+        });
+
+        const $searchText = document.querySelector('.header-form-input');
+        const $searchButton = document.querySelector('.header-form-search');
+
+        $searchButton.addEventListener('click', () => {
+            items.filterItems($searchText.value);
             document.querySelector('.fetures-items').innerHTML = items.render();
         });
 

@@ -1,1 +1,35 @@
-{}
+{
+  "cart": [
+    {
+      "user_id": 1,
+      "product_id": "1,2,3,5,6,1"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "phone": 889988,
+      "name": "Name 1"
+    },
+    {
+      "id": 2,
+      "phone": 88998811,
+      "name": "Name 2"
+    },
+    {
+      "name": "123",
+      "phone": "1233451",
+      "id": 3
+    },
+    {
+      "name": "Name Surname",
+      "phone": "+7-999-735-50-25",
+      "id": 4
+    },
+    {
+      "name": "Name Surname",
+      "phone": "+7-999-735-50-25",
+      "id": 5
+    }
+  ]
+}
