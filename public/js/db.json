@@ -1,7 +1,0 @@
-{
-  "users": [
-    { "id": 1, "phone": 889988, "name": "Name 1" },
-    { "id": 2, "phone": 88998811, "name": "Name 2" },
-    { "id": 3, "phone": 88998822, "name": "Name 3" },
-  ]
-}
