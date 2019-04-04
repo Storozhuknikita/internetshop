@@ -47,7 +47,7 @@ class ItemList {
      */
 
     fetchItems(callback) {
-        return sendRequest('/js/products.json').then((items) => {
+        return sendRequest('/products').then((items) => {
             this.items = items.map(item => new Item(item.productId, item.productName, item.productImg, item.productPrice));
             this.filteredItems = this.items;
         });
@@ -55,6 +55,8 @@ class ItemList {
 
     /*
      * Поиск в интернет магазине на главной странице
+     * Функция рабочая
+     * 03.04.2019
      */
     filterItems(query){
         const regExp = new RegExp(query, 'i');
@@ -84,7 +86,7 @@ class Cart {
         // информация о корзине хранится тут
         this.cart = [];
 
-        // получени корзину
+        // получени корзину и вешаем обработчик кликов
         this.basket = document.getElementById('basket');
         this.basket.addEventListener('click', (event) => this.handleRemoveToCartClick(event));
 
@@ -158,6 +160,9 @@ class Cart {
                 //товар есть
                 this.cart[idx].quantity++;
             }
+
+            alert('Товар добавлен');
+
             // отрисовка заново
             this.buildTotal(this.cart);
             this.buildBasket(this.cart);
