@@ -1,6 +1,7 @@
 /*
     * Функция отправки запросов
  */
+
 function sendRequest(url){
     return fetch(url).then((response) => response.json());
 }
@@ -228,6 +229,13 @@ class Cart {
         this.countTotal = document.querySelector('.header-right-cart-circle-text').textContent = count;
     }
 
+
+
+    fetchBasket(carts) {
+        return sendRequest('/cart').then((cart) => {
+            this.carts = carts.map(cart => new Cart(cart.productId, cart.productName, cart.productImg, cart.productPrice));
+        });
+    }
     /*
      * Отрисовка корзины
      * Функция рабочая
